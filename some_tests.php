@@ -110,40 +110,40 @@
 // // но наша переменная имеет имя $juice.
 // echo "He drank some juice made of {$juice}s.";
 
-$col = 10;
-$rows = 10;
+// $col = 10;
+// $rows = 10;
 
 
-function multiplications($rows, $col, $color)
-{
-    static $cnt = 0;
-    $cnt ++;
-    echo $cnt;
-    echo '<table border="1" width="300" >';
+// function multiplications($rows, $col, $color)
+// {
+//     static $cnt = 0;
+//     $cnt ++;
+//     echo $cnt;
+//     echo '<table border="1" width="300" >';
 
-    for ($tr=1; $tr <= $rows; $tr++) {
+//     for ($tr=1; $tr <= $rows; $tr++) {
        
-        echo '<tr>';
+//         echo '<tr>';
 
-        for ($td = 1; $td <= $col; $td++) {
+//         for ($td = 1; $td <= $col; $td++) {
 
-            if ($td == 1 || $tr == 1) {
+//             if ($td == 1 || $tr == 1) {
 
-                echo '<th style="background:'.$color.'"> '.$tr * $td.'</th>';
+//                 echo '<th style="background:'.$color.'"> '.$tr * $td.'</th>';
 
-            } else {
-                echo '<td > '.$tr * $td.'</td>';
+//             } else {
+//                 echo '<td > '.$tr * $td.'</td>';
             
-            }
-        }
+//             }
+//         }
 
 
-        echo '</tr>';
-    }
+//         echo '</tr>';
+//     }
 
-    echo '</table>';
+//     echo '</table>';
  
-}
+// }
 
-multiplications($rows, $col, "green");
-multiplications($rows, $col, "green");
+// multiplications($rows, $col, "green");
+// multiplications($rows, $col, "green");

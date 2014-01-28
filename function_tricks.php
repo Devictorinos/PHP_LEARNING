@@ -17,22 +17,3 @@ foo('viktor', 'lubchuk', 28);
 
 
 echo "<br />";
-
-function name()
-{
-    echo "viktor";
-}
-
-
-function showName($var)
-{
-    $var();
-}
-
-showName('name');
-
-echo "<br />";
-
-$t = showName('name');
-
-if (is_callable($t)) $t;

@@ -15,7 +15,7 @@
     // imagedestroy($rotation);
 // File and rotation
 $filename = '1.jpg';
-$degrees = 90;
+$degrees = 180;
 
 // Content type
 header('Content-type: image/jpeg');
