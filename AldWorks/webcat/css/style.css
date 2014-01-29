@@ -1,0 +1,1272 @@
+@import 'header.css';
+@import 'icons_bg_size.css';
+@import 'custum_buttons.css';
+@import 'tables.css';
+@import url(http://fonts.googleapis.com/css?family=Domine|Michroma|PT+Sans|Ubuntu|Monda:700|Cinzel:400,700|Orbitron:500,700|Alegreya+SC|Quantico);/*font-family: 'Monda', sans-serif;*/
+/*font-family: 'Domine', serif;
+font-family: 'Michroma', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Monda', sans-serif;
+font-family: 'Cinzel', serif;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Alegreya SC', serif;
+font-family: 'Quantico', sans-serif;*/
+/****************************************/
+/*********** GLOBAL SETTINGS ***********/
+/**************************************/
+
+*{padding:0;margin:0;}
+body{font-family: Arial;background:#878787;}
+a{text-decoration:none !important;}
+.clear_both{clear:both;}
+.left{float:left;}
+.right{float:right;}
+.center{margin: 0 auto;}
+.rtl{direction:rtl;}
+
+
+.ui-dialog {
+	top:250 !important;
+}
+
+div.logout_message_container{	
+	width:340px;
+	height:35px;
+	border:1px solid #a9a9a9;
+	border-radius:5px;
+	margin:130px auto 0;
+	padding:0;
+	background:#222222;
+	/*visibility:hidden;*/
+
+}
+
+div.logout_message{
+	width:200px;
+	height:25px;
+	border:1px solid #a9a9a9;
+	text-align:center;
+	direction:rtl;
+	margin:4px auto;
+	padding:0;
+}
+
+
+/* 
+***  Wrapper  *** 
+               */
+div#wrapper{
+	width:1225px;
+	min-height:800px;
+	height:auto;
+	/*border:1px solid #000;*/
+	margin:50px auto;
+	/*box-shadow: 0 0px 1px 0px #000;*/
+	padding-bottom:1px;
+	/*border-radius:5px;*/
+
+}
+
+/* 
+***Message container ***
+                      */
+div.message_container{
+	width:1225px;
+	height:40px;
+	border:1px solid #A9A9A9;
+	border-top:none;
+	border-bottom:none;
+	/*box-shadow: 0 0 1px 0px #000000;*/
+	background:#222222;
+}
+
+/*** message div ***/
+div.message_container div.message{
+	width:800px;
+	height:30px;
+	line-height:5px;
+	text-align:center;
+	margin:0 auto;
+	/*border:1px solid #000;*/
+	position: relative;
+	box-shadow: 0 0 1px 0px #000000;
+	top:5px;
+}
+
+
+/* 
+*** Main Content  ***
+                   */
+ div#main_content{
+ 	width:1225px;
+ 	/*min-height:640px;*/
+ 	height:auto;
+ 	position:relative;
+ 	border:1px solid #A9A9A9;
+ 	border-top:none;
+ 	background:#F5F5F5;
+ 	border-radius: 0 0 5px 5px;
+ 	padding-bottom:1px;
+
+ } 
+
+/*** Links ***/
+div#main_content div.links_container{
+	width:150px;
+	min-height:640px;
+	height:auto;
+	border:1px solid #A9A9A9;
+	border-right:none;
+	border-left:none;
+	border-bottom:none;
+	border-top:none;
+	/*box-shadow: 0 0 1px 0px #000;*/
+	background:#F5F5F5;
+}
+
+ div.links_header{
+	width:150px;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	border:1px solid #A9A9A9;
+	border-right:none;
+	border-left:none;
+	border-top:none;
+	font-family: 'Michroma', sans-serif;
+	font-weight:bold;
+	color:#F0AD4E;
+	font-size: 18px;
+	background:#222222;
+}
+
+/* Inner  top div with links to optons*/
+div.links{
+	width:120px;
+	margin:13px auto;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+
+div.links ul.links_top_list li{
+	padding:0;
+	height:30px;
+	line-height:30px;
+	text-indent: 10px;
+	border:1px solid #385838;
+	box-shadow: 0 0 1px 0px #385838;
+
+}
+
+div.links ul.links_top_list li a{
+	display:block;
+	color:#222222;
+	font-weight:bold;
+}
+
+
+/* Appearance drop down list */
+ul.appearance_list{	
+	margin-left:90px;
+	width:120px;
+	list-style-type:none;
+	position:absolute;
+	top:-1px;
+	left:28px;
+	z-index:10;
+	display:none;
+}
+
+ul.appearance_list li{
+	width:120px;
+	height:30px;
+	line-height:30px;
+	
+}
+
+/* CMS navigation header div */
+
+div.cms_nav_header{
+	/*border-top:1px solid #a9a9a9;*/
+	margin-bottom:15px;
+	border:none;
+	background:#F5F5F5;
+	text-shadow: 1px 1px 0 #222222;
+}
+
+
+
+/*** Content ***/
+div#main_content div.content{
+	width:1073px;
+	min-height:640px;
+	height:auto;
+/*	border:1px solid #A9A9A9;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;*/
+	/*box-shadow: 0 0 1px 1px #000;*/
+	position:relative;
+	background:#F7F7F9;
+}
+
+/*************************************************************/
+/***              index page settings                     ***/
+/***********************************************************/
+
+div.index_container{
+	width:800px;
+	height:600px;
+	/*border:1px solid #a9a9a9;*/
+	margin: 10px auto;
+	border-radius:10px;
+}
+
+div.index_header{
+	width:800px;
+	height:160px;
+	border:1px solid #a9a9a9;
+	background: #385838;
+	border-radius:10px 10px 0 0;
+}
+
+div.index_logo{
+
+	width:550px;
+	height:100px;
+}
+
+div.index_content{
+	width:800px;
+	height:440px;
+	border:1px solid #a9a9a9;
+	border-top:none;
+	background:#222222;
+	border-radius: 0 0 10px 10px;
+}
+
+div.index_login{
+	width:550px;
+	height:350px;
+	/*border:1px solid #9a9a9a;*/
+	margin: 0 auto;
+	position:relative;
+	top:20px;
+	color:#F0AD4E;
+}
+
+
+
+
+
+
+
+/*************************************************************/
+/***               Main page settings                     ***/
+/***********************************************************/
+
+
+/* Header of content */
+div.content div.content_header_container{
+	width:1074px;
+	height:40px;
+	font-family: 'Michroma', sans-serif;
+	font-weight:bold;
+
+	
+}
+
+/* Web site content title */
+div.content_header_container div.website_content_title{
+	width:536px;
+	height:40px;
+	padding:0;
+	border:1px solid #a9a9a9;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	line-height:40px;
+	text-align: center;
+	background:#222222;
+	color:#F0AD4E;
+	font-size: 18px;
+}
+
+/* Web site modules title */
+div.content_header_container div.website_modules_title{
+	width:537px;
+	height:40px;
+	border:1px solid #A9A9A9;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	line-height:40px;
+	text-align: center;
+	background:#222222;
+	color:#F0AD4E;
+	font-size: 18px;
+}
+
+div.inner_modules_title{
+	width:400px;
+	height:40px;
+	/*border:1px solid #000;*/
+	line-height:40px;
+}
+
+
+
+div.website_modules_title div.add_module{
+	height:30px;
+	/*border:1px solid #A9A9A9;*/
+	margin:5px 5px 0 0;
+	font-family: 'Ubuntu', sans-serif;
+}
+/**************** Header of content ends ****************/
+
+
+/* Inner content of main page */
+div.content div.inner_content{
+	width:1073px;
+	min-height:599px;
+	height:auto;
+	/*border:1px solid #000;*/
+}
+
+div.inner_content div.website_content{
+	width:536px;
+	height:599px;
+	/*border:1px solid #A9A9A9;*/
+	border-left:none;
+	border-top:none;
+	border-bottom:none;
+	font-weight:bold;
+	font-family: 'Ubuntu', sans-serif;
+	background:#F5F5F5;
+	/*text-transform:uppercase;*/
+}
+
+div.inner_content div.website_modules{
+	width:536px;
+	height:599px;
+	border:1px solid #A9A9A9;
+	border-left:none;
+	border-right:none;
+	border-top:none;
+	border-bottom:none;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight:bold;
+	background:#F5F5F5;
+	/*text-transform:uppercase;*/
+}
+
+/*** Divs with titles of main page*/
+div.titles_list{
+	width:350px;
+	height:25px;
+	/*border:1px solid #000;*/
+	float:left;
+}
+
+div.titles_buttons{
+	width:100px;
+	height:25px;
+	/*border:1px solid #000;*/
+	float:right;
+	margin-right:27px;
+}
+
+/** Table of the main page with list of options**/
+table.table tr td{
+	height:46px;
+}
+
+/** Buttons of table of main page **/
+.btn_mp{
+	width:100px;
+	height:30px;
+	line-height:30px;
+	padding:0;
+}
+
+.btn_mp a{
+	font-family: 'Ubuntu', sans-serif;
+	color:#ffffff;
+}
+
+
+
+/************************************************************************/
+/***                Custumize Header page settings                   ***/
+/**********************************************************************/
+
+/* Div header  title on top  */
+div.content_header_container div.custum_header_title{
+	width:1073px;
+	height:40px;
+	border:1px solid #A9A9A9;
+	border-right:none;
+	border-top:none;
+	border-left:none;
+	text-align:center;
+	line-height:40px;
+	background:#222222;
+	color:#F0AD4E;
+	font-size: 18px;
+	
+}
+
+
+/* Inner content of custumize header list */
+div.content div.inner_custum_header_content{
+	width:1073px;
+	min-height:1200px;
+	height:auto;
+	border:1px solid #A9A9A9;
+	border-right:none;
+	border-top:none;
+	border-left:none;
+	border-bottom:none;
+	/*border:1px solid #000;*/
+}
+
+
+
+
+
+
+/*************************************************************/
+/***              Pages list settings                     ***/
+/***********************************************************/
+
+/* Div header pages list on top with the main titles */
+div.content_header_container div.header_pages_list{
+	width:680px;
+	height:40px;
+	border:1px solid #A9A9A9;
+	border-right:none;
+	border-top:none;
+	border-left:none;
+}
+
+
+
+
+/* Container of total pages div*/
+div.header_pages_list div.total_pages{
+	width:160px;
+	height:40px;
+	border-bottom:1px solid #a9a9a9;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 12px;
+	background:#222222;
+	/*text-shadow: 0 0 1px #000;
+*/
+} 
+
+/*  Total pages div*/
+div.total{
+	background:#385838;
+	padding:7px 5px;
+	margin:6px 0 0 5px;
+}
+
+
+
+
+
+/* Div with pages list title*/
+div.header_pages_list div.pages_list_title{
+	width:520px;
+	height:40px;
+	border-bottom:1px solid #a9a9a9;
+	color:#F0AD4E;
+	font-size: 18px;
+	text-align:center;
+	line-height:40px;
+	background:#222222;
+} 
+
+/* button add new page*/
+button.add_new_page{
+	 margin-top:5px;
+	 margin-right:10px;
+	 font-family: 'Cinzel', serif;
+	 font-weight:bold;
+	 
+}
+
+button.add_new_page a{
+	font-family: 'Cinzel', serif;
+	font-weight:bold;
+	font-size:13px;
+	color:#ffffff;
+}
+
+
+
+/* Div header pages options title on top  */
+div.content_header_container div.header_pages_options{
+	width:393px;
+	height:40px;
+	border:1px solid #A9A9A9;
+	border-right:none;
+	border-top:none;
+	border-left:none;
+	text-align:center;
+	line-height:40px;
+	background:#222222;
+	color:#F0AD4E;
+	font-size: 18px;
+	
+}
+
+
+/* Inner content of pages list */
+div.content div.inner_pages_list_content{
+	width:682px;
+	min-height:1200px;
+	height:auto;
+	border:1px solid #A9A9A9;
+	border-right:none;
+	border-top:none;
+	border-left:none;
+	border-bottom:none;
+	background:#F5F5F5;
+	/*border:1px solid #000;*/
+}
+
+
+/*** Container of page info ***/
+div.page_info_container{
+	width:681px;
+	min-height:70px;
+	height:auto;
+	border:1px dashed #385838;
+	margin:5px;
+	background:#FCF8E3;
+/*	border-top:none;
+	border-left:none;*/
+}
+
+/* Div with active or desactive icon */
+div.page_info_container div.active_icon{
+	width:50px;
+	height:50px;
+	margin-left:5px;
+	margin-top:9px;
+	/*border:1px solid #000;*/
+}
+
+/* Div with page name and children link */
+div.page_info_container div.page_name{
+	width:200px;
+	height:60px;
+	margin-top: 4px;
+	/*border:1px solid #000;*/
+}
+
+/* Span with page name */
+div.page_name span.pg_name{
+	margin: 10px 0 0 30px;
+	font-weight:bold;
+}
+
+ul#nav_ul  li{
+	border:1px dashed #385838 ;
+}
+
+/* children  page links*/
+div.page_name a.links_to_children{
+	display:block;
+	/*width:50px;*/
+	margin:5px 0 0 45px;
+	text-decoration: underline !important;
+	font-size: 12px;
+	visibility:hidden;
+}
+
+/* Page date */
+div.page_date{
+	width:170px;
+	height:60px;
+	/*border:1px solid #000;*/
+	margin-top:4px;
+	padding-top:7px;
+	padding-left:5px;
+	font-size:12px;
+}
+
+span.date_titles{
+	font-weight:bold;
+}
+
+
+/* Span with edit options */
+div.page_edit_options span.edit_page_options{
+	display: block;
+	width:250px;
+	height:20px;
+	/*border:1px solid #000;*/
+	margin-top:35px;
+	margin-left:50px;
+}
+
+
+
+div.page_info_container div.page_edit_options{
+	width:250px;
+	height:60px;
+	margin-top: 4px;
+	/*border:1px solid #000;*/
+}
+
+
+
+
+/* Children containers */
+div.children_page_info_container{
+	width:679px;
+	/*min-height:70px;*/
+	height:auto;
+	border:1px dashed #A9A9A9;
+	border-left:none;
+	border-right:none;
+	border-bottom:none;
+	display:none;
+	background: #D9EDF7;
+}
+
+div.children2_page_info_container{
+	width:679px;
+	/*min-height:70px;*/
+	height:auto;
+	border:1px dashed #A9A9A9;
+	border-left:none;
+	border-right:none;
+	border-bottom:none;
+	/*display:none;*/
+	background: #F8F8FF;
+}
+
+div.children3_page_info_container{
+	width:679px;
+	/*min-height:70px;*/
+	height:auto;
+	border:1px dashed #A9A9A9;
+	border-left:none;
+	border-right:none;
+	border-bottom:none;
+	/*display:none;*/
+	background: #D9EDF7;
+}
+
+div.children4_page_info_container{
+	width:679px;
+	/*min-height:70px;*/
+	height:auto;
+	border:1px dashed #A9A9A9;
+	border-left:none;
+	border-right:none;
+	border-bottom:none;
+	/*display:none;*/
+	background: #F8F8FF;
+}
+
+
+/**************************************************************/
+
+
+/*** Inner content of pages options ***/
+div.content div.inner_pages_options_content{
+	width:392px;
+	min-height:799px;
+	height:auto;
+	border:1px solid #A9A9A9;
+	border-right:none;
+	border-top:none;
+	text-align:center;
+	border-bottom:none;
+	border:1px solid #000;
+	background:#F5F5F5;
+}
+
+
+
+/***
+*** Inner content of pages options ***
+                                  ***/
+div.content div.inner_pages_options_content{
+	width:385px;
+	min-height:1200px;
+	height:auto;
+	border:1px solid #A9A9A9;
+	border-right:none;
+	border-top:none;
+	border-left:none;
+	text-align:center;
+	border-bottom:none;
+	/*border:1px solid #000;*/
+
+}
+
+
+
+/*** Div fast editing container ***/
+div.fast_editing_container{
+	width:350px;
+	min-height:600px;
+	height:auto;
+	/*border:1px solid #000;*/
+	margin:10px auto;
+}
+
+
+/* Div with fast editing content*/
+div.fast_editing_content{
+	width:350px;
+	min-height:600px;
+	height:auto;
+}
+
+/* Fast edeting content header title */
+div.fast_editing_content div.fast_editing_header h5{
+	color:#444444;
+	font-family: 'PT Sans', sans-serif;
+	font-weight:bold;
+}
+
+/* Div of inner edeting content */
+div.fast_editing_content div.editing_content{
+
+	width:320px;
+	min-height:200px;
+	height:auto;
+	/*border:1px solid #000;*/
+	margin:10px auto;
+}
+
+/* Fast Edit pages Title container*/
+div.editing_content div.title_container{
+	width:320px;
+	height:40px;
+	border:1px solid #a9a9a9;
+	background:#FFF0DE;
+	border-radius:5px 5px  0 0;
+	line-height:40px;
+}
+
+/* Fast edit pages title */
+span.editing_pages_container_title{
+	display:block;
+	color:#444444;
+	font-family: 'Quantico', sans-serif;
+	font-weight:bold;
+	font-size:16px;
+}
+
+/* Fast editing pages titles */
+
+div.fast_editing_pages{
+	width:320px;
+	height:auto;
+	border:1px solid #a9a9a9;
+	text-align:left;
+	text-indent: 8px;
+}
+
+select#editing_page{
+	margin:20px 0 0 70px;
+	width:150px;
+	height:25px;
+
+
+}
+
+div.fast_mp_pages_content{
+	width:300px;
+	height:auto;
+	margin:20px auto;
+	/*border:1px dashed #a9a9a9;*/
+	padding:10px;
+}
+
+
+div.fe_message{
+	width:300px;
+	height:80px;
+	/*border:1px solid #000;*/
+	margin:30px auto 0;
+	display:none;
+}
+
+/*************************************************/
+
+
+
+/*************************************************************/
+/***               Edit page settings                     ***/
+/***********************************************************/
+
+/* Header with edit page title and preview button */
+div.pages_edit_header{
+	width:1073px;
+	height:40px;
+	border:1px solid #a9a9a9;
+	border-left:none;
+	border-right:none;
+	border-top:none;
+}
+
+/* Div with edit page title */
+div.pages_edit_header div.pages_edit_title{
+	width:900px;
+	height:39px;
+	text-align: center;
+	line-height:40px;
+	font-family: 'Michroma', sans-serif;
+	font-weight:bold;
+	background:#222222;
+	color:#F0AD4E;
+	font-size: 18px;
+}
+
+/* Div with previe button */
+div.pages_edit_header div.pages_edit_preview{
+	width:173px;
+	height:39px;
+	background:#222222;
+}
+
+button.btn-preview-spin{
+	height:30px;
+	padding:5px 10px ;	
+	margin-top:5px;
+}
+
+
+/* Content of editing page */
+div.inner_content_pages_edit{
+	width:1073px;
+	min-height:700px;
+	border:1px solid #a9a9a9;
+	border-left:none;
+	border-right:none;
+	border-top:none;
+	border-bottom:none;
+	background:#F5F5F5;
+}
+
+
+
+/*************************************************************/
+/***           Images stock  page settings                ***/
+/***********************************************************/
+
+
+div.images_stock_container{
+ 	width:1073px;
+	min-height:640px;
+	height:auto;
+/*	border:1px solid #A9A9A9;
+	border-right:none;
+	border-bottom:none;*/
+	/*border-left:none;*/
+	/*box-shadow: 0 0 1px 1px #000;*/
+	position:relative;
+	background:#F1F9FA;
+	padding-bottom:10px;
+	
+}
+
+div.images_stock_header{
+	width:1073px;
+	height:39px;
+	border:1px solid #A9A9A9;
+	border-right:none;
+	border-bottom:none;
+	border-top:none;
+	border-left:none;
+	text-align:center;
+	font-family: 'Michroma', sans-serif;
+	font-weight:bold;
+	line-height:40px;
+	background:#222222;
+	color:#F0AD4E;
+	font-size: 18px;
+}
+
+div.images_stock_content{
+	width:1073px;
+	min-height:640px;
+	height:auto;
+	border:1px solid #A9A9A9;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;
+	background:#F5F5F5;
+}
+
+
+div.multiple_img_upload{
+	width:1073px;
+	min-height:100px;
+	height:auto;
+	padding-bottom: 5px;
+	/*border:1px solid #A9A9A9;*/
+	border-right:none;
+	border-top:none;
+	border-left:none;
+	background:#F5F5F5;
+}
+
+
+div.images_stock_inner_content{
+	width:800px;
+	height:780px;
+	/*height:auto;*/
+	/*border:1px solid #A9A9A9;*/
+	border-top:none;
+	border-left:none;
+	border-bottom:none;
+	position:relative;
+	background:#F5F5F5;
+
+}
+
+div.upl_cont{
+	display:none;
+}
+
+
+/* Pagination container */
+div.img_stock_pagination_container{
+	width:800px;
+	height:50px;
+	/*border:1px solid #000;*/
+	margin-bottom:6px;
+}
+
+
+
+div.img_stock__pagination{
+	width:565px;
+	height:50px;
+	/*border:1px solid #A9A9A9;*/
+	border-top:none;
+	border-left:none;
+
+}
+
+div.img_stock__pagination ul.pagination{
+	margin: 8px 0;
+	display:block;
+	margin-left:37px;
+	border-radius: 4px;
+}
+
+span#pages_numbers{
+	
+	/*padding-top:5px;*/
+	/*border:1px solid #000;*/
+	margin-left:25px;
+	
+}
+
+/****************************************/
+
+div.img_stock__search{
+	width:200px;
+	height:50px;
+	/*border:1px solid #A9A9A9;*/
+	border-top:none;
+	border-left:none;
+}
+
+
+input.img_stock_search{
+	width:150px;
+	display:inline;
+	margin:8px 0 0 5px;
+}
+
+button#img_stock_search_btn{
+	margin:8px 0 0 5px;
+}
+
+button#img_stock_search_page_btn{
+	margin:8px 0 0 5px;
+}
+
+input.img_stock_page_search{
+	width:110px;
+	display:inline;
+	margin:8px 0 0 5px;
+}
+
+button#page_img_stock_search_btn{
+	margin:8px 0 0 5px;
+}
+
+/***********************/
+/* Div editing img */
+
+div#edit_stock_img{
+	width:400px;
+	height:400px;
+	border:1px solid #a9a9a9;
+	position:absolute;
+	top:20%;
+	left:25%;
+	background:#F5F5F5;
+	display:none;
+}
+
+
+
+
+
+
+/*****************************/
+/* Image stock statistic div*/
+div.images_stock_statistic{
+	width:270px;
+	min-height:600px;
+	height:auto;
+	/*border:1px solid #A9A9A9;*/
+	border-top:none;
+	border-left:none;
+	border-bottom:none;
+	background:#F5F5F5;
+	margin-right:3px;
+}
+
+div.img_stock_statistic_header{
+	width:270px;
+	height:30px;
+	/*border:1px solid #A9A9A9;*/
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	font-family: 'Michroma', sans-serif;
+	font-weight:bold;
+	line-height:30px;
+	text-align:center;
+}
+
+div.img_stock_statistic_content{
+	width:270px;
+	height:auto;
+	/*border:1px solid #A9A9A9;*/
+
+}
+
+div.img_stock_counts{
+	width:270px;
+	height:40px;
+	/*border:1px solid #A9A9A9;*/
+}
+
+span.img_stock_count{
+	display:inline-block;
+	margin:10px 30px 0 10px;
+}
+
+span.img_stock_catigorys{
+	display:inline-block;
+	
+}
+
+div.choose_img_catigory{
+	padding:10px 10px;
+}
+
+div.choose_img_catigory h4#choose_cat_title{
+	font-size:17px;
+}
+
+div.upload_buttons{
+	margin:30px 0 0 0;
+}
+
+div.uploader_container{
+	
+	height:350px !important;
+	overflow:auto;
+	/*border:2px solid #000;*/
+	position:relative;
+	clear:both;
+}
+
+
+/*************************************************************/
+/***               Cars page settings                     ***/
+/***********************************************************/
+
+div.cars_container{
+ 	width:1073px;
+	min-height:640px;
+	height:auto;
+/*	border:1px solid #A9A9A9;
+	border-right:none;
+	border-bottom:none;*/
+	/*border-left:none;*/
+	/*box-shadow: 0 0 1px 1px #000;*/
+	position:relative;
+	background:#fff;
+	padding-bottom:10px;
+	background:#F5F5F5;
+	
+}
+
+div.cars_header{
+	width:1073px;
+	height:39px;
+	border:1px solid #A9A9A9;
+	border-right:none;
+	border-bottom:none;
+	border-top:none;
+	border-left:none;
+	text-align:center;
+	font-family: 'Michroma', sans-serif;
+	font-weight:bold;
+	line-height:40px;
+	background:#222222;
+	color:#F0AD4E;
+	font-size: 18px;
+}
+
+div.cars_content{
+	width:1073px;
+	min-height:640px;
+	height:auto;
+	border:1px solid #A9A9A9;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;
+
+}
+
+div.cars_inner_content{
+	width:800px;
+	height:780px;
+	/*height:auto;*/
+	/*border:1px solid #A9A9A9;*/
+	border-top:none;
+	border-left:none;
+	border-bottom:none;
+	position:relative;
+	background:#F5F5F5;
+
+}
+
+
+/* Pagination container */
+div.cars_pagination_container{
+	width:800px;
+	height:50px;
+	/*border:1px solid #000;*/
+	margin-bottom:6px;
+}
+
+div.cars_pagination{
+	width:565px;
+	height:50px;
+	/*border:1px solid #A9A9A9;*/
+	border-top:none;
+	border-left:none;
+
+}
+
+div.cars_pagination ul.pagination{
+	margin: 8px 0;
+	display:block;
+	margin-left:37px;
+	border-radius: 4px;
+}
+
+span#pages_numbers{
+	
+	/*padding-top:5px;*/
+	/*border:1px solid #000;*/
+	margin-left:25px;
+	
+}
+
+div.car_search{
+	width:200px;
+	height:50px;
+	/*border:1px solid #A9A9A9;*/
+	border-top:none;
+	border-left:none;
+}
+
+
+input.car_search{
+	width:150px;
+	display:inline;
+	margin:8px 0 0 5px;
+}
+
+button#car_search_btn{
+	margin:8px 0 0 5px;
+}
+
+button#img_stock_search_page_btn{
+	margin:8px 0 0 5px;
+}
+
+input.car_page_search{
+	width:110px;
+	display:inline;
+	margin:8px 0 0 5px;
+}
+
+button#car_search_page_btn{
+	margin:8px 0 0 5px;
+}
+
+/****************************************/
+
+div.cars_statistic_content{
+	width:270px;
+	height:auto;
+	/*border:1px solid #A9A9A9;*/
+
+}
+
+/*** Edit car div ***/
+
+div#edit_car{
+	width:300px;
+	border-radius: 5px;
+	border: 1px solid #a9a9a9;
+	position:absolute;
+	top:20%;
+	left:30%;
+	background: #F7F7F9;
+	display:none;
+}
+
+
+div#edit_car input.edit_car_fields{
+	width:150px;
+	border-radius: 5px;
+	text-indent:5px;
+}
+
+/***
+*   Footer   *
+          ***/
+/*div.footer{
+	width:1225px;
+	height:60px;
+	border:1px solid #A9A9A9;
+
+	
+
+}
+*/
+
+

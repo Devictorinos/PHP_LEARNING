@@ -1,0 +1,288 @@
+/* table of index page with login */
+table#user_login{
+	border-collapse:separate;
+	border-spacing:50px 50px;
+}
+
+table#user_login td label{
+	font-family: 'Michroma', sans-serif;
+	font-weight:bold;
+	font-size:18px;
+}
+
+input#login_btn{
+	margin-right:50px;
+}
+
+/* Table of edit pages */
+table.update_pages{
+	margin:20px 0 0 30px;
+	border-collapse:separate;
+	border-spacing:10px 20px;
+}
+
+input.editp_input{
+	width:200px;
+	height:30px;
+	text-indent: 5px;
+	border-radius:3px;
+	outline:none;
+	box-shadow: 0 0 0 1px #a9a9a9;
+	border:none;
+}
+
+input.feditp_input{
+	width:150px;
+	height:25px;
+	text-indent: 5px;
+	border-radius:3px;
+	outline:none;
+	box-shadow: 0 0 0 1px #a9a9a9;
+	border:none;
+}
+
+select.editp_select{
+	width:130px;
+	height:25px;
+}
+
+
+textarea.editp_content{
+	width:800px;
+	height:400px;
+	/*text-align:right !important;*/
+	text-align:left;
+	text-indent:10px !important;
+}
+
+textarea.page_meta_descr{
+	width:800px;
+	height:70px;
+	padding:5px;
+}
+
+input.meta_keywords{
+	width:800px;
+	height:30px;
+	text-indent: 5px;
+	border-radius:3px;
+	outline:none;
+	box-shadow: 0 0 0 1px #a9a9a9;
+	border:none;
+}
+
+div.content_wigets{
+	width:800px;
+	height:60px;
+	background:#F5F5F5;
+	border-radius: 5px 5px  0 0;
+	border:1px solid #a9a9a9;
+	border-bottom:none;
+}
+
+
+div.content_wigets  button.wiget_btn{
+	padding:0px;
+	border:1px solid #a9a9a9;
+	display:inline-block;
+	float:left !important;
+	margin:10px 0 0 10px; 
+	width:40px;
+	height:40px;
+}
+
+input.btn-update-spin{
+	width:100px;
+}
+
+
+/**********************************************************************/
+
+/* Table of fast editing content */
+table#fast_edit_table{
+
+	border-collapse:separate;
+	border-spacing:10px 10px;
+}
+
+table#fast_edit_table input{
+	text-indent: 10px;
+
+}
+
+input#page_order{
+	width:50px;
+}
+
+select#editing_page{
+	width:155px;
+	height:25px;
+}
+
+select#choose_parrent_page{
+	width:155px;
+	height:25px;
+}
+
+button.fast_update_ptn{
+	padding:2px 10px;
+	margin-top:15px;
+	margin-right:10px;
+
+}
+
+span.fe_loader{
+	margin-top:15px;
+	margin-right:20px;
+	visibility:hidden;
+}
+
+
+
+/*****************************************************************************/
+
+/* tabel with img stock info */
+
+
+/* div with small img*/
+table.thumbnail_img div.img_thumbnail{
+	width:82px;
+	/*border:1px solid #000;*/
+}
+
+/****************************************/
+
+
+/* div with img info */
+table.thumbnail_img div.img_thumbnail_info{	
+	width:380px;
+	/*border:1px solid #000;*/
+	margin-left:50px;
+	margin-top:11px;
+	font-size: 14px;
+}
+
+div.img_thumbnail_info div.img_thumbnail_catigory{
+	margin-left:25px;
+}
+
+
+/******************************************/
+
+/* div with options */
+table.thumbnail_img div.img_thumbnail_options{
+	width:150px;
+	/*border:1px solid #000;*/
+	margin-top:6px;
+}
+
+div.img_thumbnail_options button#img_stock_edit a{
+	color:#ffffff;
+}
+
+
+div.img_thumbnail_options button#img_stock_del{
+	margin-left:10px;
+}
+
+
+div.img_thumbnail_options button#img_stock_del a{
+	color:#ffffff;
+}
+
+/************************************************************/
+
+/* Table with edit image */
+
+
+table#img_stock_edit_table{
+	border-collapse: separate;
+	border-spacing: 20px 20px;
+	font-size:14px;
+}
+
+table#img_stock_edit_table input.edit_img_fields{
+	width:200px;
+	height:25px;
+	border-radius:5px;
+	text-indent: 5px;
+
+}
+
+table#img_stock_edit_table textarea.edit_img_te{
+	width:200px;
+	height:70px;
+	padding:3px;
+	border-radius:5px;
+	border:1px solid #a9a9a9;
+	box-shadow: -1px -1px 0 0 #a9a9a9;
+}
+
+table#img_stock_edit_table #image_catigory , #image_car{
+	width:100px;
+
+}
+
+/* Table with cars list */
+
+/* div with small img*/
+table.thumbnail_car div.car_thumbnail{
+	width:82px;
+	/*border:1px solid #000;*/
+}
+
+/* div with img info */
+table.thumbnail_car div.car_thumbnail_info{	
+	width:300px;
+	/*border:1px solid #000;*/
+	margin-left:50px;
+	margin-top:11px;
+	font-size: 14px;
+}
+
+div.car_thumbnail_info div.car_thumbnail_model{
+	margin-left:25px;
+}
+
+
+/******************************************/
+
+/* div with options */
+table.thumbnail_car div.car_thumbnail_options{
+	width:150px;
+	/*border:1px solid #000;*/
+	margin-top:6px;
+}
+
+div.car_thumbnail_options button#car_edit a{
+	color:#ffffff;
+}
+
+
+div.img_thumbnail_options button#car_del{
+	margin-left:10px;
+}
+
+
+div.car_thumbnail_options button#car_del a{
+	color:#ffffff;
+}
+
+
+
+/* Table of custum header edit */
+
+table#custum_header_tbl{	
+	border-collapse: separate;
+	border-spacing: 20px 20px;
+	font-size:16px;
+
+}
+
+table#custum_header_tbl input.custum_header_input{
+	width:200px;
+	height:25px;
+	border-radius:5px;
+	text-indent: 5px;
+	direction:rtl;
+}

@@ -1,0 +1,36 @@
+/* Links div top icons positions*/
+.admin{
+	background:url(../images/admin.png) no-repeat 5px 0px; 
+	padding-left:25px !important;
+}
+
+.users{
+	background:url(../images/users.png) no-repeat 5px 0px; 
+	padding-left:25px !important;
+}
+
+.settings{
+	background:url(../images/settings.png) no-repeat 5px 0px; 
+	padding-left:25px !important;
+}
+
+.appearance{
+		background:url(../images/appearance.png) no-repeat 5px 0px; 
+	padding-left:25px !important;
+}
+
+.appearance_arrow{
+		background: #FFF url(../images/appearance_arrow.png) no-repeat -5px -5px; 
+	padding-left:25px !important;
+}
+.exit{
+		background: #39B3D7 url(../images/exit.png) no-repeat 3px  ; 
+	padding-left:25px !important;
+}
+
+
+
+.admin:hover,.users:hover,.settings:hover,.appearance:hover,.appearance_arrow:hover{
+	background-color:#B2E0FF;
+}
+
