@@ -30,7 +30,7 @@
 <br>
 <label for="captcha">Captcha</label><br>
 <input type="text">&nbsp;&nbsp;<span class="captcha"><?php header("Content-type: image/png");
-imagepng($im); ;?></span>
+imagepng($im);?></span>
 <br>
 <input type="submit" value="send">
 
