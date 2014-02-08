@@ -194,6 +194,35 @@ else :
 
 endif;
 
+
+$aaa = "1";
+$bbb = "2";
+$ccc = array("3", "4");
+
+if (isset($aaa, $bbb, $ccc[1])) {
+    echo "<br>all set";
+}
+echo "================================<br />";
+
+$abs = array("r","a","b");
+
+$bcd = serialize($abs);
+$cde = unserialize($bcd);
+echo $bcd."<br>";
+print_r($cde);
+
+
+echo "<br />";
+echo "=========================<br />";
+
+$time  = time();
+$time = date("d-m-Y h-i-s", $time);
+echo $time;
+
+
+echo "<br />";
+echo "=========================<br />";
+
 ?>
 <!doctype html>
 <html lang="he">

@@ -12,3 +12,5 @@ include 'file3.php';
 //echo \dogs\Dog::say();
 $a = \animate\Animal::say();
 
+var_dump($a);
+
