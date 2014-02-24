@@ -1,0 +1,200 @@
+@import "variables";
+@import "functions";
+/* Global Satting */
+body {
+    position:relative;
+}
+*{margin: 0;padding: 0;}
+.clearfix {
+    clear: both;
+
+    &:before {
+        content: "";
+        display: table;
+    }
+
+    &:after {
+        content: "";
+        display: table;
+    }
+}
+
+/**********************
+     Login In Page 
+**********************/
+
+/* *** Header *** */
+header.header-container {
+
+    @include widthHeight(100%, 200px);
+    border: setBorder(1px, solid, rgba(#000, 0.5));
+
+    div.header-wrapper {
+        @include widthHeight(1024px, 200px);
+        border: setBorder(1px, solid, rgba(#000, 0.5));
+        margin: 0 auto;
+
+    }
+
+}
+
+div.header {
+
+    div.logo {
+        width:500px;
+        height: 200px;
+        float: left;
+        border: setBorder(1px, solid, rgba(#000, 0.5));
+    }
+
+    div.header-aside {
+        width:520px;
+        height: auto;
+        float: left;
+        border: setBorder(1px, solid, rgba(#000, 0.5));
+
+        div.register-ac {
+            width: 150px;
+            height: auto;
+            margin: 10px 20px;
+            float: right;
+        }
+    }
+}
+
+/* *** Content Container *** */
+section.content-container {
+    @include widthHeight(100%, auto, 0, 300px);
+    border: setBorder(1px, solid, rgba(#000, 0.5));
+    
+    //content wrapper
+    div.content {
+        @include widthHeight(1024px, auto);
+        border: setBorder(1px, solid, rgba(#000, 0.5));
+        @include margin(0, auto, 0, auto);
+    
+    }
+
+}
+
+//Content
+ div.inner-content {
+
+    width: 500px;
+    height:300px;
+     @include margin(30px, auto, 0, auto);
+
+}
+
+/* *** Login Form And  Register Form *** */
+form.login-form {
+    
+    //Form parts
+    div.form-parts {
+        width: $fp-width;
+        height: $fp-height;
+        border: 1px solid #000;
+        @include margin(10px, auto, 0, auto);
+        
+        //Input label
+        div.form-label {
+            width:150px;
+            float: left;
+            text-align: $lb-text-align;
+            @include margin(10px, 0, 10px, 0);
+            line-height:25px;
+        }
+        
+        //Input
+        div.form-input {
+            width:250px;
+            float: left;
+            text-align: $inp-text-align;
+            @include margin(10px, 0, 10px, 0);
+        }
+
+        //Form submit buttons
+        div.form-submit {
+             @include margin(10px, 0, 10px, 0);
+             width: 400px;
+             text-align: $subm-text-align;
+
+        }
+    }
+
+    input.form-field {
+        width: 230px;
+        height: 25px;
+        outline: none;
+        @include borderRadius(10px);
+        line-height: 25px;
+        text-indent: 10px;
+
+    }
+
+    input.form-btn {
+        width: 150px;
+        height: 25px;
+        display: block;
+        margin: 0 auto;
+        @include borderRadius(5px);
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+
+}
+
+/* *** Register Modal *** */
+div#register-modal {
+    width: 700px;
+    height: 500px;
+    border: setBorder(1px, solid, rgba(#e5e5e5, 0.5));
+    @include bocShadow(1px 1px 5px 1px rgba(#ffffff, 0.8));
+    @include borderRadius(10px);
+    background: #e5e5e5;
+    //opacity: 0.5;
+    color: #000;
+    display:none;
+    
+    div.moadal-header {
+        height: 10px;
+    }
+
+    div.register-captcha {
+        width: 260px;
+        height: 50px;
+
+        margin: 0 auto;
+
+        div.captcha {
+            width: 202px;
+            height: 46px;
+            border: setBorder(1px, solid, rgba(#000, 0.5));
+            background: #000;
+            float: left;
+        }
+
+        div.refresh-captcha {
+            width: 50px;
+            height: 50px;
+            border: setBorder(1px, solid, rgba(#000, 0.5));
+            float: right;
+        }
+    }
+
+    span.close-reg-modal {
+        
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 5px;
+        right: 5px;
+
+        a {
+            color: #000;
+            font-weight: bold;
+            display: block;
+        }
+    }
+}

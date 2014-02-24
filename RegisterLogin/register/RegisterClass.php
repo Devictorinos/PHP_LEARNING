@@ -14,11 +14,11 @@ use PDO;
 use PDOEcxception;
 use Exception;
 
-//session_start();
-
 class RegisterClass extends db\QueryClass
 {
+
     
+    /*** executing All Methods when declaring Object ***/
     public function __construct($db, $array, $displayErrors)
     {
         parent::__construct($db, $array, $displayErrors);
@@ -30,6 +30,7 @@ class RegisterClass extends db\QueryClass
         $this->userRegisterDate = $this->registerData['userRegisterDate'];
         $this->checkUserLogin($this->registerData['userLogin']);
 
+        /*** Display errors Array if exists ***/
         if (!empty($this->errors) && $this->displayErrors === true) {
                      echo "<pre>" . print_r($this->errors, true) . "</pre>";
 
@@ -41,6 +42,7 @@ class RegisterClass extends db\QueryClass
         
     }
 
+    /*** Checking First Name and Last Name ***/
     private function checkFirstandLastName($fName, $lName)
     {
         
@@ -72,7 +74,7 @@ class RegisterClass extends db\QueryClass
         
     }
 
-    
+    /*** Checking User Login ***/
     private function checkUserLogin($login)
     {
         $sql = "SELECT * FROM `users` WHERE `userLogin` LIKE ? ";
@@ -90,21 +92,23 @@ class RegisterClass extends db\QueryClass
         
     }
 
-
+    /*** Checking Email ***/
     private function checkEmail($email)
     {
+
         if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
             
             $this->errors[] =  "Error: Invalid Email Address! check received Data";
 
         } else {
 
-            $sql = "SELECT * FROM `users` WHERE `userEmail` LIKE ? ";
+            $sql = "SELECT * FROM `users` WHERE `userEmail`= ? ";
 
             $query = $this->dbh->prepare($sql);
-            $query->bindParam(1, $email, PDO::PARAM_STR);
+            $query->bindValue(1, $email, PDO::PARAM_STR);
             $query->execute();
             $Email = $query->fetchAll(PDO::FETCH_ASSOC);
+            
             if ($Email) {
 
                 $_SESSION['errorEmail'] = "Error:  Email Address already Exists!";
@@ -119,6 +123,7 @@ class RegisterClass extends db\QueryClass
 
     }
 
+    /*** Checkin password ***/
     private function checkPassword($userPassword, $userRepeatPassword)
     {
         if (empty($userPassword) || empty($userRepeatPassword)) {
@@ -145,6 +150,7 @@ class RegisterClass extends db\QueryClass
         }
     }
 
+    /*** Hashing password ***/
     private function doHashing($userPassword)
     {
         $this->passwordHash = $this->passPrefix.md5(sha1(md5($userPassword)));
@@ -175,6 +181,9 @@ class RegisterClass extends db\QueryClass
     //     return $this;
     // }
     
+    
+
+    /*** Building query ***/
     private function buildQuery()
     {
 
@@ -215,6 +224,7 @@ class RegisterClass extends db\QueryClass
         return array($this->sql, $this->values);
     }
 
+    /*** Executing Query  IF errors array is empty ***/
     public function runSQL()
     {
 
@@ -227,8 +237,6 @@ class RegisterClass extends db\QueryClass
 
             try {
 
-                //var_dump($this->values);
-                //exit();
                 $query = $this->dbh->prepare($sql);
         
                 foreach ($this->values as $key => &$val) {
@@ -240,11 +248,10 @@ class RegisterClass extends db\QueryClass
                     $query->bindParam($key+1, $val, $type);
 
                 }
-
-                    //var_dump($query);
                     $query->execute();
                     $this->dbh->commit();
                     return true;
+
             } catch (PDOException $e) {
 
                 $this->dbh->rollBack();

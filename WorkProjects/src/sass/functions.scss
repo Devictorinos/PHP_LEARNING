@@ -1,0 +1,68 @@
+@function setBorder($width, $style, $color) {
+  @return $width $style $color
+}
+
+@mixin widthHeight($w, $h:auto, $minW:0, $minH:0) {//arg 1 - width , arg 2 -height , arg 3 - min width, arg 4 - min height
+  @if $minW == 0 and $minH == 0 {
+
+    width: $w;
+    height: $h;
+
+  } @else if $minW != 0 and $minH == 0 {
+
+      min-width: $minW;
+      width: $w;
+      height: $h;
+
+  } @else if $minH !=0 and $minW == 0 {
+      
+      width: $w;
+      min-height: $minH;
+      height: $h; 
+
+  } @else if $minW != 0 and $minH != 0 {
+      
+      min-width: $minW;
+      width: $w;
+      min-height: $minW;
+      height: $h; 
+  } 
+}
+
+@mixin margin($top:0, $right:0, $bottom:0, $left:0) {//Margin mixin
+  
+  @if $right == auto and $bottom == 0 and $left == auto{
+    
+    margin: $top auto; 
+
+  } @else if $right == auto and $left == auto {
+    
+    margin: $top auto $bottom;
+
+  } @else {
+    
+    margin: $top $right $bottom $left;
+  }
+
+}
+
+@mixin padding ($top:0, $right:0, $bottom:0, $left:0) {
+  
+  padding: $top $right $bottom $left;
+}
+
+@mixin borderRadius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+       -o-border-radius: $radius;
+          border-radius: $radius;
+}
+
+@mixin bocShadow($shadow) {
+  -webkit-box-shadow: $shadow;
+     -moz-box-shadow: $shadow;
+      -ms-box-shadow: $shadow;
+       -o-box-shadow: $shadow;
+          box-shadow: $shadow;
+}
