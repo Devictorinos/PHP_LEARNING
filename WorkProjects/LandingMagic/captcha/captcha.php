@@ -4,10 +4,10 @@ namespace captcha;
 
 !(isset($_SESSION)) ? session_start() : '';
 
-
-
 putenv('GDFONTPATH=' . realpath('.'));
 $captchaText = $_SESSION['captcha'];
+
+
 class Captcha
 {
     public $wdth;
