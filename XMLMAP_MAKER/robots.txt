@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /js/
+Disallow: /webcat/
+Disallow: /css/
+Disallow: /php/
+Disallow: /icons/
+Disallow: /images/
+Disallow: /templates/
+Disallow: /files/
+
+
+Sitemap:http://topdclocksmith.net/sitemap.xml

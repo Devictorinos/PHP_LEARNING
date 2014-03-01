@@ -18,7 +18,7 @@ header('Content-Type: text/html;charset=utf-8');
 
 //header('Content-Type: text/plain');
 /* mean that file is text and onclick on him it will be opened with text editor to read  */
-/*header('Content-type: file/octet-stream');
+header('Content-type: file/octet-stream');
 header('Content-Disposition: attachment; file="myfile.txt"');
 
 
