@@ -13,13 +13,14 @@ exit();
 header('Refresh: 3');// refresh page after 3 seconds
 
 header('Refresh: 3;url=http://site.com');//redirect to website after 3 sec
+*/
 
 header('Content-Type: text/html;charset=utf-8');
 
 //header('Content-Type: text/plain');
 /* mean that file is text and onclick on him it will be opened with text editor to read  */
-header('Content-type: file/octet-stream');
-header('Content-Disposition: attachment; file="myfile.txt"');
+/*header('Content-type: file/octet-stream');
+header('Content-Disposition: attachment; file="myfile.txt"');*/
 
 
 /* cacheng page to specific time */
@@ -27,7 +28,7 @@ header('Content-Disposition: attachment; file="myfile.txt"');
 
 
 
-if (!isset($_SERVER['PHP_AUTH_USER'])) {
+/*if (!isset($_SERVER['PHP_AUTH_USER'])) {
 
     header('WWW-Authenticate: Basic realm="My Realm"');
     header('HHTP/1.0 401 Unauthorized');
@@ -36,7 +37,7 @@ if (!isset($_SERVER['PHP_AUTH_USER'])) {
 } else {
     echo 'hello' . $_SERVER['PHP_AUTH_USER'];
     echo 'you entered PASSWORD ' . $_SERVER['PHP_AUTH_PW'];
-}
+}*/
 
 
 
@@ -85,4 +86,4 @@ function movePage($num,$url){
    header($http[$num]);
    header ("Location: $url");
 }
-}
+
