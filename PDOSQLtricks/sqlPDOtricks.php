@@ -43,7 +43,10 @@ function doPDO($db, $sql, $values)
     
 
 
+trait User
+{
 
+}
 
    /* $sql = preg_replace_callback("/{(\$\w.*?)}/", function($matches) {
 

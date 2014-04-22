@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/css" href="firstStep.css"?>
+<catalog>
+
+    <book>
+        <author>Victor Lubchuk</author>
+        <title> XML and IE5</title>
+        <pubyear>2000</pubyear>
+        <price>60</price>
+    </book>
+
+    <book>
+        <author>Sergey Lubchuk</author>
+        <title> Dinamic HTML</title>
+        <pubyear>2002</pubyear>
+        <price>200</price>
+    </book>
+    
+</catalog>

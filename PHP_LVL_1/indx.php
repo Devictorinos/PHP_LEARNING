@@ -115,6 +115,11 @@ $day = strftime('%d');
 $mon = strftime('%B');
 $year = strftime('%Y');
 
+
+echo "$day <hr />";
+echo "$mon <hr />";
+echo "$year <hr />";
+
 $v = "viktor";
 $$v = "sergey";
 

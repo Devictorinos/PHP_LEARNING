@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<definitions name='Stock'
+             targetNamespace='http://localhost/php_lerning/PHP_LVL_3/xml/SOAP'
+             xmlns:tns=' http://localhost/php_lerning/PHP_LVL_3/xml/SOAP '
+             xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+             xmlns:xsd='http://www.w3.org/2001/XMLSchema'
+             xmlns:soapenc='http://schemas.xmlsoap.org/soap/encoding/'
+             xmlns:wsdl='http://schemas.xmlsoap.org/wsdl/'
+             xmlns='http://schemas.xmlsoap.org/wsdl/'>
+
+<message name="getStockRequest">
+      <part name="id" type="xsd:string"/>
+   </message>
+   <message name="getStockResponse">
+      <part name="Result" type="xsd:string"/>
+   </message>
+
+   <portType name="StockPortType">
+      <operation name="getStock">
+         <input message="tns:getStockRequest"/>
+         <output message="tns:getStockResponse"/>
+      </operation>
+   </portType>
+
+   <binding name="StockBinding" type="tns:StockPortType">
+   <soap:binding style="rpc"
+      transport="http://schemas.xmlsoap.org/soap/http"/>
+   <operation name="getStock" />
+   </binding>
+
+   <service name="StockService">
+      <port name="StockPort" binding="tns:StockBinding" >
+         <soap:address
+            location="http://localhost/php_lerning/PHP_LVL_3/xml/SOAP/server.php" />
+      </port>
+   </service>
+</definitions>

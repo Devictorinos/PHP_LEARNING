@@ -1,0 +1,196 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+DBWork	DBWork/DBWork.php	/^class DBWork$/;"	c
+Delete	DBWork/Delete.php	/^class Delete extends Query$/;"	c
+Insert	DBWork/Insert.php	/^class Insert extends Query$/;"	c
+Log	DBWork/Log.php	/^class Log$/;"	c
+Query	DBWork/Query.php	/^abstract class Query$/;"	c
+Select	DBWork/Select.php	/^class Select extends Query$/;"	c
+Test	DBWork/test.php	/^class Test$/;"	c
+Truncate	DBWork/Truncate.php	/^class Truncate extends Query$/;"	c
+Update	DBWork/Update.php	/^class Update extends Query$/;"	c
+__call	DBWork/Delete.php	/^    public function __call($method, $agrs)$/;"	f
+__call	DBWork/Select.php	/^    public function __call($method, $args)$/;"	f
+__construct	DBWork/DBWork.php	/^    public function __construct($host, $database, $username, $password)$/;"	f
+__construct	DBWork/Query.php	/^    public function __construct($dbh, $table, $alias, $fields)$/;"	f
+_field	DBWork/Update.php	/^        $_field = $this->dbh->prepare("SHOW INDEX FROM `people` WHERE key_name = 'PRIMARY'");$/;"	v
+alias	DBWork/Query.php	/^        $this->alias  = $alias;$/;"	v
+alias	DBWork/Query.php	/^    public $alias;$/;"	v
+argm	DBWork/DBWork.php	/^                $argm = $matches[1];$/;"	v
+autoInc_field	DBWork/Update.php	/^        $autoInc_field = $_field->fetch(PDO::FETCH_ASSOC);$/;"	v
+autoInc_field	DBWork/Update.php	/^        $autoInc_field = $autoInc_field['Column_name'];$/;"	v
+buildJoin	DBWork/Select.php	/^    private function buildJoin()$/;"	f
+buildSQL	DBWork/Delete.php	/^    private function buildSQL($delimiter = "\\n")$/;"	f
+buildSQL	DBWork/Insert.php	/^    private function buildSQL()$/;"	f
+buildSQL	DBWork/Select.php	/^    private function buildSQL($delimiter = "\\n")$/;"	f
+buildSQL	DBWork/Truncate.php	/^    private function buildSQL($delimiter = "\\n")$/;"	f
+buildSQL	DBWork/Update.php	/^    private function buildSQL()$/;"	f
+categories	index.php	/^$categories  = $db->select('categories', 'c', ['*']);$/;"	v
+catigorys	index.php	/^ $catigorys  = $db->select('categories', 'c', 'CategoryName');$/;"	v
+class	autoload.php	/^    $class = str_replace("\\\\", "\/", $class);$/;"	v
+db	index.php	/^$db = new DBC("localhost", "northwind", "root", "123");$/;"	v
+db	index.php	/^$db = new \\DBWork\\DBWork('localhost', 'northwind', 'root', '123');$/;"	v
+dbc	DBWork/DBWork.php	/^        $dbc = 'mysql:host=' . $host . ';dbname=' . $database;$/;"	v
+dbh	DBWork/DBWork.php	/^            $this->dbh = new PDO($dbc.';charset=utf8', $username, $password, $options);$/;"	v
+dbh	DBWork/DBWork.php	/^    private $dbh;$/;"	v
+dbh	DBWork/Query.php	/^        $this->dbh    = $dbh;$/;"	v
+dbh	DBWork/Query.php	/^    protected $dbh;$/;"	v
+delete	DBWork/DBWork.php	/^    public function delete($table, $alias = null, $fields = null)$/;"	f
+error	DBWork/Log.php	/^    public static function error(Exception $e)$/;"	f
+fList	DBWork/Select.php	/^        $fList  =  $this->inClause($list);$/;"	v
+field	DBWork/DBWork.php	/^                $field = preg_replace("\/$argm\/", "`$table`.$argm", $field);$/;"	v
+fieldClause	DBWork/DBWork.php	/^    private function fieldClause($table, $fields)$/;"	f
+fields	DBWork/DBWork.php	/^            $fields = array($fields);$/;"	v
+fields	DBWork/DBWork.php	/^        $fields = $this->fieldClause($alias, $fields);$/;"	v
+fields	DBWork/DBWork.php	/^        $fields = array_map(function ($field) use ($table) {$/;"	v
+fields	DBWork/Insert.php	/^        $fields = array_keys($subjects);$/;"	v
+fields	DBWork/Insert.php	/^        $this->fields = array_map(function ($field) {$/;"	v
+fields	DBWork/Insert.php	/^        $this->fields = implode(",", $this->fields);$/;"	v
+fields	DBWork/Insert.php	/^    public $fields   = array();$/;"	v
+fields	DBWork/Query.php	/^        $this->fields = $fields;$/;"	v
+fields	DBWork/Query.php	/^    public $fields;$/;"	v
+fields	DBWork/Select.php	/^            $fields  = array_merge($fields, $object->fields);$/;"	v
+fields	DBWork/Select.php	/^        $fields   = array();$/;"	v
+fields	DBWork/Select.php	/^        $fields = implode(", ", $fields);$/;"	v
+fieldsValues	DBWork/Insert.php	/^    public function fieldsValues(array $subjects)$/;"	f
+flatten_params	DBWork/Select.php	/^        $flatten_params = array();$/;"	v
+flatten_patterns	DBWork/Delete.php	/^        $flatten_patterns = array();$/;"	v
+flist	DBWork/Delete.php	/^        $flist = $this->inClause($list);$/;"	v
+getAll	DBWork/Select.php	/^    public function getAll($debug = false)$/;"	f
+getOne	DBWork/Select.php	/^    public function getOne($debug = false)$/;"	f
+group	DBWork/Delete.php	/^            $group = (int)$matches[1];$/;"	v
+group	DBWork/Select.php	/^            $group = (int)$matches[1];$/;"	v
+groupBy	DBWork/Select.php	/^            $groupBy = array_merge($groupBy, $object->groupBy);$/;"	v
+groupBy	DBWork/Select.php	/^            $groupBy = implode(", ", $groupBy);$/;"	v
+groupBy	DBWork/Select.php	/^        $groupBy  = array();$/;"	v
+groupBy	DBWork/Select.php	/^    public $groupBy = array();$/;"	v
+groupBy	DBWork/Select.php	/^    public function groupBy($field, $asc = true)$/;"	f
+highlight	DBWork/Log.php	/^        $highlight = array("SELECT","as"," IN ","DELETE","TRUNCATE","UPDATE","SET","JOIN","GROUP BY","LEFT JOIN","RIGHT JOIN","OUTER JOIN","FROM","BETWEEN","LIKE","WHERE","LIMIT","ORDER BY","ASC","DESC");$/;"	v
+inClause	DBWork/Delete.php	/^    private function inClause($list)$/;"	f
+inClause	DBWork/Select.php	/^    private function inClause($list)$/;"	f
+innerJoin	DBWork/Select.php	/^    public function innerJoin(Select $table, $alias, $on)$/;"	f
+insert	DBWork/DBWork.php	/^    public function insert($table, $alias = null, $fields = null)$/;"	f
+join	DBWork/Select.php	/^    public function join(Select $table, $alias, $on)$/;"	f
+joins	DBWork/Select.php	/^    public $joins   = array();$/;"	v
+keyVal	DBWork/Update.php	/^             $keyVal = intval($this->keysVals[''.$autoInc_field.'']);$/;"	v
+keys	DBWork/Update.php	/^        $keys   = array_keys($this->keysVals);$/;"	v
+keys	DBWork/Update.php	/^        $keys = array_map(function ($field) {$/;"	v
+keysVals	DBWork/Update.php	/^        $this->keysVals = array_merge($this->keysVals, $fields);$/;"	v
+keysVals	DBWork/Update.php	/^    public $keysVals  = array();$/;"	v
+leftJoin	DBWork/Select.php	/^    public function leftJoin(Select $table, $alias, $on)$/;"	f
+leftTable	DBWork/Select.php	/^            $leftTable  = $this->alias;$/;"	v
+limit	DBWork/Delete.php	/^        $limit   = array();$/;"	v
+limit	DBWork/Delete.php	/^        $this->limit = (int)$limit;$/;"	v
+limit	DBWork/Delete.php	/^    public $limit   = array();$/;"	v
+limit	DBWork/Delete.php	/^    public function limit($limit)$/;"	f
+limit	DBWork/Select.php	/^        $this->limit = $limit;$/;"	v
+limit	DBWork/Select.php	/^    public $limit   = null;$/;"	v
+limit	DBWork/Select.php	/^    public function limit($limit)$/;"	f
+list	DBWork/Delete.php	/^        $list = array_map(function ($i) {$/;"	v
+list	DBWork/Delete.php	/^        $list = implode(",", $list);$/;"	v
+list	DBWork/Select.php	/^        $list = array_map(function ($i) {$/;"	v
+list	DBWork/Select.php	/^        $list = implode(",", $list);$/;"	v
+objects	DBWork/Select.php	/^            $objects = array_merge($objects, $_objects);$/;"	v
+objects	DBWork/Select.php	/^        $objects = array($this);$/;"	v
+options	DBWork/DBWork.php	/^        $options = array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION);$/;"	v
+order	DBWork/Select.php	/^    public $order   = array();$/;"	v
+orderBy	DBWork/Select.php	/^            $orderBy = array_merge($orderBy, $object->order);$/;"	v
+orderBy	DBWork/Select.php	/^            $orderBy = implode(", ", $orderBy);$/;"	v
+orderBy	DBWork/Select.php	/^        $orderBy  = array();$/;"	v
+orderBy	DBWork/Select.php	/^    public function orderBy($field, $asc = true)$/;"	f
+params	DBWork/Delete.php	/^        $params  = array();$/;"	v
+params	DBWork/Delete.php	/^    public $params  = array();$/;"	v
+params	DBWork/Insert.php	/^        $this->params = array_values($subjects);$/;"	v
+params	DBWork/Insert.php	/^    public $params   = array();$/;"	v
+params	DBWork/Select.php	/^        $params   = array();$/;"	v
+params	DBWork/Select.php	/^    public $params  = array();$/;"	v
+params	DBWork/Truncate.php	/^        $params   = array();$/;"	v
+params	DBWork/Truncate.php	/^        $params = array();$/;"	v
+params	DBWork/Update.php	/^        $params = array();$/;"	v
+params	DBWork/Update.php	/^        $this->params = $values;$/;"	v
+params	DBWork/Update.php	/^    public $params    = array();$/;"	v
+products	index.php	/^$products    = $db->select('products', 'p', ['sum(ProductID) as Pcount']);$/;"	v
+products1	index.php	/^$products1   = $db->select('products', 'pp', ['ProductName as PPname']);$/;"	v
+query	DBWork/Delete.php	/^            $query = $this->dbh->prepare($sql);$/;"	v
+query	DBWork/Insert.php	/^            $query = $this->dbh->prepare($sql);$/;"	v
+query	DBWork/Log.php	/^    public static function query($sql, $params)$/;"	f
+query	DBWork/Select.php	/^            $query = $this->dbh->prepare($sql);$/;"	v
+query	DBWork/Truncate.php	/^            $query = $this->dbh->prepare($sql);$/;"	v
+query	DBWork/Update.php	/^            $query = $this->dbh->prepare($sql);$/;"	v
+regex	DBWork/Log.php	/^        $regex = '\/' . implode('|', $highlight).'\/';$/;"	v
+rightJoin	DBWork/Select.php	/^    public function rightJoin(Select $table, $alias, $on)$/;"	f
+rightTable	DBWork/Select.php	/^            $rightTable = $obj['subject']->table;$/;"	v
+runSQL	DBWork/Delete.php	/^    public function runSQL($debug = false)$/;"	f
+runSQL	DBWork/Insert.php	/^    public function runSQL($debug = false)$/;"	f
+runSQL	DBWork/Select.php	/^    protected function runSQL($debug = false)$/;"	f
+runSQL	DBWork/Truncate.php	/^    public function runSQL($debug = false)$/;"	f
+runSQL	DBWork/Update.php	/^    public function runSQL($debug = false)$/;"	f
+select	DBWork/DBWork.php	/^    public function select($table, $alias, $fields = null)$/;"	f
+set	DBWork/Update.php	/^    public function set($fields)$/;"	f
+sql	DBWork/Delete.php	/^        $sql     = array();$/;"	v
+sql	DBWork/Delete.php	/^        $sql = implode($delimiter, $sql);$/;"	v
+sql	DBWork/Insert.php	/^        $sql = $this->buildSQL();$/;"	v
+sql	DBWork/Insert.php	/^        $this->sql = implode(" ", $this->sql);$/;"	v
+sql	DBWork/Insert.php	/^    public $sql      = array();$/;"	v
+sql	DBWork/Log.php	/^        $sql = preg_replace($regex, '<span style="color:red">$0<\/span>', $sql);$/;"	v
+sql	DBWork/Log.php	/^        $sql = preg_replace('\/ AND |ON | OR\/', '<em style="color:violet">$0<\/em>', $sql);$/;"	v
+sql	DBWork/Log.php	/^        $sql = preg_replace_callback('\/\\?\/', function ($matches) use (&$params) {$/;"	v
+sql	DBWork/Select.php	/^            $sql = array_merge($_sql, $sql);$/;"	v
+sql	DBWork/Select.php	/^        $sql      = array();$/;"	v
+sql	DBWork/Select.php	/^        $sql = array();$/;"	v
+sql	DBWork/Select.php	/^        $sql = array_merge($sql, $_sql);$/;"	v
+sql	DBWork/Select.php	/^        $sql = implode($delimiter, $sql);$/;"	v
+sql	DBWork/Truncate.php	/^        $sql      = array();$/;"	v
+sql	DBWork/Truncate.php	/^        $sql = $this->buildSQL();$/;"	v
+sql	DBWork/Truncate.php	/^        $sql = implode($delimiter, $sql);$/;"	v
+sql	DBWork/Update.php	/^        $sql = array();$/;"	v
+sql	DBWork/Update.php	/^        $sql = implode("\\n", $sql);$/;"	v
+sql	DBWork/Update.php	/^        $this->sql = $sql;$/;"	v
+sql	DBWork/Update.php	/^    public $sql;$/;"	v
+t	index.php	/^$t = new Test();$/;"	v
+table	DBWork/DBWork.php	/^        $table  = $this->tableClause($table);$/;"	v
+table	DBWork/DBWork.php	/^        $table = "`$table`";$/;"	v
+table	DBWork/DBWork.php	/^        $table = $this->tableClause($table);$/;"	v
+table	DBWork/DBWork.php	/^        $table = $this->tableClause($table, $alias = null, $fields = null);$/;"	v
+table	DBWork/Query.php	/^        $this->table  = $table;$/;"	v
+table	DBWork/Query.php	/^    public $table;$/;"	v
+tableClause	DBWork/DBWork.php	/^    private function tableClause($table)$/;"	f
+truncate	DBWork/DBWork.php	/^    public function truncate($table, $alias = null, $fields = null)$/;"	f
+type	DBWork/Delete.php	/^                $type = is_bool($val)    ? PDO::PARAM_BOOL : PDO::PARAM_STR;$/;"	v
+type	DBWork/Delete.php	/^                $type = is_integer($val) ? PDO::PARAM_INT  : PDO::PARAM_STR;$/;"	v
+type	DBWork/Delete.php	/^                $type = is_null($val)    ? PDO::PARAM_NULL : PDO::PARAM_STR;$/;"	v
+type	DBWork/Insert.php	/^                $type = is_bool($param)    ? PDO::PARAM_BOOL : PDO::PARAM_STR;$/;"	v
+type	DBWork/Insert.php	/^                $type = is_integer($param) ? PDO::PARAM_INT  : PDO::PARAM_STR;$/;"	v
+type	DBWork/Insert.php	/^                $type = is_null($param)    ? PDO::PARAM_NULL : PDO::PARAM_STR;$/;"	v
+type	DBWork/Select.php	/^                $type = is_bool($val)    ? PDO::PARAM_BOOL : PDO::PARAM_STR;$/;"	v
+type	DBWork/Select.php	/^                $type = is_integer($val) ? PDO::PARAM_INT  : PDO::PARAM_STR;$/;"	v
+type	DBWork/Select.php	/^                $type = is_null($val)    ? PDO::PARAM_NULL : PDO::PARAM_STR;$/;"	v
+type	DBWork/Update.php	/^                $type = is_bool($val)    ? PDO::PARAM_BOOL : PDO::PARAM_STR;$/;"	v
+type	DBWork/Update.php	/^                $type = is_integer($val) ? PDO::PARAM_INT  : PDO::PARAM_STR;$/;"	v
+type	DBWork/Update.php	/^                $type = is_null($val)    ? PDO::PARAM_NULL : PDO::PARAM_STR;$/;"	v
+update	DBWork/DBWork.php	/^    public function update($table)$/;"	f
+validFields	DBWork/Update.php	/^        $validFields = array();$/;"	v
+values	DBWork/Insert.php	/^        $this->values = array_map(function ($val) {$/;"	v
+values	DBWork/Insert.php	/^        $this->values = implode(",", $this->values);$/;"	v
+values	DBWork/Insert.php	/^    public $values   = array();$/;"	v
+values	DBWork/Update.php	/^        $values = array_values($this->keysVals);$/;"	v
+where	DBWork/Delete.php	/^        $where   = array();$/;"	v
+where	DBWork/Delete.php	/^    public $where   = array();$/;"	v
+where	DBWork/Delete.php	/^    public function where($group, $field, $operation, $subject)$/;"	f
+where	DBWork/Insert.php	/^    public $where    = array();$/;"	v
+where	DBWork/Select.php	/^        $where    = array();$/;"	v
+where	DBWork/Select.php	/^    public $where   = array();$/;"	v
+where	DBWork/Select.php	/^    public function where($group, $field, $operation, $subject)$/;"	f
+where	DBWork/Update.php	/^             $where = "`$autoInc_field`";$/;"	v
+where	DBWork/Update.php	/^        $this->where = "WHERE $where = ?";$/;"	v
+where	DBWork/Update.php	/^    public $where     = array();$/;"	v
+whereBetween	DBWork/Select.php	/^    public function whereBetween($group, $field, $a, $b)$/;"	f
+whereIn	DBWork/Delete.php	/^    public function whereIn($group, $field, array $list)$/;"	f
+whereIn	DBWork/Select.php	/^    public function whereIn($group, $field, array $list)$/;"	f
+whereSQL	DBWork/Delete.php	/^            $whereSQL = array();$/;"	v
+whereSql	DBWork/Select.php	/^            $whereSql = "WHERE " . implode(' OR ', $whereSql);$/;"	v
+whereSql	DBWork/Select.php	/^            $whereSql = array();$/;"	v

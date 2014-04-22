@@ -1,0 +1,11 @@
+book {
+    display: table;
+    border: 1px solid #000;
+}
+
+author, title, pubyear, price{
+    display: table-row;
+    border: 1px solid #000;
+
+}
+

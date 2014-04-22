@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<definitions name='Fname'
+             targetNamespace='http://localhost/php_lerning/PHP_LVL_3/xml/soapPractice'
+             xmlns:tns=' http://localhost/php_lerning/PHP_LVL_3/xml/soapPractice '
+             xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+             xmlns:xsd='http://www.w3.org/2001/XMLSchema'
+             xmlns:soapenc='http://schemas.xmlsoap.org/soap/encoding/'
+             xmlns:wsdl='http://schemas.xmlsoap.org/wsdl/'
+             xmlns='http://schemas.xmlsoap.org/wsdl/'>
+
+<message name="getFnameRequest">
+      <part name="id" type="xsd:string"/>
+   </message>
+   <message name="getFnameResponse">
+      <part name="Result" type="xsd:string"/>
+   </message>
+
+   <portType name="FnamePortType">
+      <operation name="getFname">
+         <input message="tns:getFnameRequest"/>
+         <output message="tns:getFnameResponse"/>
+      </operation>
+   </portType>
+
+   <binding name="FnameBinding" type="tns:FnamePortType">
+   <soap:binding style="rpc"
+      transport="http://schemas.xmlsoap.org/soap/http"/>
+   <operation name="getFname" />
+   </binding>
+
+   <service name="FnameService">
+      <port name="FnamePort" binding="tns:FnameBinding" >
+         <soap:address
+           location="http://localhost/php_lerning/PHP_LVL_3/xml/soapPractice/name.wsdl"/>
+      </port>
+   </service>
+</definitions>
