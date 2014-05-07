@@ -25,13 +25,12 @@
     <splitter split-orientation="horizontal" split-proportion="0.4521994">
       <split-first>
         <leaf>
-          <file leaf-file-name="server.php" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="server.php" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/soapPractice/server.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="26" column="0" selection-start="571" selection-end="571" vertical-scroll-proportion="0.6319444" vertical-offset="0" max-vertical-offset="864">
+                <state line="41" column="0" selection-start="900" selection-end="900" vertical-scroll-proportion="0.880787" vertical-offset="100" max-vertical-offset="987">
                   <folding>
                     <element signature="e#6#91#0" expanded="true" />
-                    <marker date="1398072970070" expanded="true" signature="428:455" placeholder="SELECT `titl..." />
                   </folding>
                 </state>
               </provider>
@@ -53,16 +52,16 @@
           <file leaf-file-name="stock.wsdl" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/SOAP/stock.wsdl">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="3" column="72" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="882">
+                <state line="3" column="72" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0" vertical-offset="63" max-vertical-offset="882">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="server.php" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="server.php" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/SOAP/server.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="22" column="5" selection-start="358" selection-end="358" vertical-scroll-proportion="0.5347222" vertical-offset="0" max-vertical-offset="864">
+                <state line="22" column="5" selection-start="360" selection-end="360" vertical-scroll-proportion="0.5347222" vertical-offset="0" max-vertical-offset="864">
                   <folding />
                 </state>
               </provider>
@@ -71,7 +70,7 @@
           <file leaf-file-name="soapClient.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/soapClient.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.7" vertical-offset="0" max-vertical-offset="357">
+                <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0" vertical-offset="21" max-vertical-offset="609">
                   <folding />
                 </state>
               </provider>
@@ -90,9 +89,9 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/SOAP/stock.wsdl" />
-        <option value="$PROJECT_DIR$/SOAP/server.php" />
         <option value="$PROJECT_DIR$/soapClient.php" />
         <option value="$PROJECT_DIR$/soapPractice/server.php" />
+        <option value="$PROJECT_DIR$/SOAP/server.php" />
       </list>
     </option>
   </component>
@@ -197,7 +196,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../liveYad2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
@@ -260,7 +259,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.092651755" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.09318424" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -268,11 +267,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -294,10 +293,46 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/soapPractice/server.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0" vertical-offset="546" max-vertical-offset="672">
+          <folding>
+            <element signature="e#6#91#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../DBWork/DBWork/DBWork.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="70" selection-start="347" selection-end="409" vertical-scroll-proportion="0.0" vertical-offset="483" max-vertical-offset="3276">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SOAP/stock.wsdl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="72" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="882">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SOAP/server.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="5" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0" vertical-offset="462" max-vertical-offset="819">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/soapClient.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0" vertical-offset="21" max-vertical-offset="357">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/soapPractice/server.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="14" selection-start="434" selection-end="434" vertical-scroll-proportion="0.0" vertical-offset="399" max-vertical-offset="546">
           <folding>
             <element signature="e#6#91#0" expanded="true" />
-            <marker date="1398072970070" expanded="true" signature="428:455" placeholder="SELECT `titl..." />
           </folding>
         </state>
       </provider>
@@ -332,9 +367,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../SQL_Lerning/lerning.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="3" selection-start="76" selection-end="108" vertical-scroll-proportion="0.0" vertical-offset="21" max-vertical-offset="3024">
-          <folding />
-        </state>
+        <state line="3" column="3" selection-start="76" selection-end="108" vertical-scroll-proportion="0.0" vertical-offset="21" max-vertical-offset="3024" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Videos/PHP 4 levels/PHP Уровень 3/php-3/soap/soap-server.php">
@@ -366,9 +399,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../SQL_Lerning/lerning.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="3" selection-start="76" selection-end="108" vertical-scroll-proportion="0.048611112" vertical-offset="21" max-vertical-offset="3024">
-          <folding />
-        </state>
+        <state line="3" column="3" selection-start="76" selection-end="108" vertical-scroll-proportion="0.048611112" vertical-offset="21" max-vertical-offset="3024" />
       </provider>
     </entry>
     <entry file="file:///etc/php5/cli/php.ini">
@@ -378,7 +409,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/soapClient.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.7" vertical-offset="0" max-vertical-offset="357">
+        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0" vertical-offset="21" max-vertical-offset="357">
           <folding />
         </state>
       </provider>
@@ -390,20 +421,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SOAP/server.php">
+    <entry file="file://$PROJECT_DIR$/soapPractice/server.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="5" selection-start="358" selection-end="358" vertical-scroll-proportion="0.5347222" vertical-offset="0" max-vertical-offset="864">
-          <folding />
+        <state line="41" column="0" selection-start="900" selection-end="900" vertical-scroll-proportion="0.880787" vertical-offset="100" max-vertical-offset="987">
+          <folding>
+            <element signature="e#6#91#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/soapPractice/server.php">
+    <entry file="file://$PROJECT_DIR$/SOAP/server.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="571" selection-end="571" vertical-scroll-proportion="0.6319444" vertical-offset="0" max-vertical-offset="864">
-          <folding>
-            <element signature="e#6#91#0" expanded="true" />
-            <marker date="1398072970070" expanded="true" signature="428:455" placeholder="SELECT `titl..." />
-          </folding>
+        <state line="22" column="5" selection-start="360" selection-end="360" vertical-scroll-proportion="0.5347222" vertical-offset="0" max-vertical-offset="864">
+          <folding />
         </state>
       </provider>
     </entry>
