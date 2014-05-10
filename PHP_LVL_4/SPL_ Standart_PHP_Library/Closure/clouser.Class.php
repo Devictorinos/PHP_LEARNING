@@ -48,14 +48,14 @@ $newArr = array_map("create_function('$v', 'return $v * 2;')", $arr);*/
 
 // advenced example
 
-$add = function ($num) {
+$add = function ($num) { 
 
     return  function ($x) use ($num) {
         return $x + $num;
     };
 };
 
-$add_2 = $add(2);
+$add_2 = $add(2);// add_2 now including such a construction like this - function ($x) {return $x + 2;
 echo $add_2(5);
 echo "this <hr />";
 
@@ -92,8 +92,7 @@ class User
 
 $u = new user("Victor");
 
-echo "<pre>" . print_r($u->sayHello("Hello"), true) . "</pre>";
-$v = $u->sayHello("Hello");
+$phrase = $u->sayHello("Hello");
 
 echo $v();
 
