@@ -38,29 +38,13 @@ class NumberSquared implements Iterator
 
     public function valid()
     {
-        return $this->_current <= $this->_end;
+        if ($this->_current <= $this->_end) {
+            
+            return   $this->_current;
+        }
     }
 }
 
-
-/*++ IteratorAggregate ++*/
-class Test implements IteratorAggregate
-{
-    private $__start;
-    private $__end;
-
-    public function __construct($start, $end)
-    {
-        $this->_start = $start;
-        $this->_end   = $end;
-    }
-
-    public function getIterator()
-    {
-        return  new NumberSquared($this->_start, $this->_end);
-    }
-
-}
 
 $nums = new NumberSquared(2, 5);
 
@@ -68,13 +52,3 @@ foreach ($nums as $key => $value) {
     
     echo " square of number {$key} =  $value<hr />";
 }
-
-echo "<br /> <hr />";
-
-$nums1 = new NumberSquared(3, 9);
-
-foreach ($nums1 as $key1 => $value1) {
-    
-    echo " square of number1 {$key1} =  $value1 <hr />";
-}
-?>
