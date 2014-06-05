@@ -153,12 +153,9 @@ class UploadImage {
     private function checkImageSize()
     {
 
-        if($this->_imageSize < $this->_allowedSize) {
-            return true;
-        } else {
+        if($this->_imageSize > $this->_allowedSize) {
 
             $this->_errorCollector[] = "Image Size is Not Allowed!";
-
         }
 
         return $this;
@@ -170,11 +167,8 @@ class UploadImage {
     private function checkImageExtention()
     {
 
-        if(in_array($this->_imageType, $this->_allowedExtention)) {
+        if(!in_array($this->_imageType, $this->_allowedExtention)) {
 
-            return true;
-
-        } else {
             $this->_errorCollector[] = "The Image Extention is not Allowed!";
 
         }
@@ -190,11 +184,10 @@ class UploadImage {
             $this->_errorCollector[] = "Image Dimension Width is Not Allowed!";
 
         } else if ($this->_imageHeight > $this->_allowedHeght) {
-            $this->_errorCollector[] = "Image Dimension Height is Not Allowed!";
-        } else {
-           return true;
-        }
 
+            $this->_errorCollector[] = "Image Dimension Height is Not Allowed!";
+
+        }
     }
 
 
@@ -213,7 +206,7 @@ class UploadImage {
      * @param array $allowedExtention
      * @return $this
      */
-    public function setAllowedExtention(array $allowedExtention)
+    public function addAllowedExtention(array $allowedExtention)
     {
         $this->_allowedExtention = $allowedExtention;
         return $this;
@@ -253,7 +246,7 @@ class UploadImage {
      * @param $destinationFolder
      * @return $this
      */
-    public function setDestinationFolder(array $destinationFolder)
+    public function addDestinationFolder(array $destinationFolder)
     {
         $this->_destinationFolder = $destinationFolder;
         return $this;
