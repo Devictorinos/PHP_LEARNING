@@ -1,16 +1,24 @@
 <?php
-/*spl_autoload_register(function ( $class) {
+
+
+use test\inertest as victor;
+
+
+
+/*use test\inertest as victor;*/
+
+spl_autoload_register(function ( $class) {
 
     $class = str_replace("\\", "/", $class);
     include  $class . ".php";
-});*/
+});
 
 //spl_autoload_register(array("test/Test", "sayHello"));
-require_once "autoloader.php";
+/*require_once "autoloader.php";
 
 Autoloader::dirName('test');
 
-spl_autoload_register('Autoloader::loa');
+spl_autoload_register('Autoloader::loa');*/
 
 
 //spl_autoload_call('Test1');
@@ -32,9 +40,9 @@ spl_autoload_register('my_autoload');*/
 //==================================================
 
 
-require_once "autoloader.php";
+/*require_once "autoloader.php";*/
 
-Autoloader::dirName('test');
+/*Autoloader::dirName('test');
 
 spl_autoload_register('Autoloader::loa');
 
@@ -50,13 +58,22 @@ spl_autoload_register('Autoloader::loa');
 
 $test2 = new Test2();
 $test2->sayHello();
+/**/
 
-
-Autoloader::dirName('test3');
+/*Autoloader::dirName('test3');
 
 spl_autoload_register('Autoloader::loa');
 
 
-$test3 = new Test3();
+/*$test3 = new Test3();
+$test3->sayHello();*/
+
+$test3 = new victor\Test33();
 $test3->sayHello();
 
+
+/*var_dump(spl_autoload_functions());*/
+
+
+$test = new test\Test();
+$test->sayHello();
