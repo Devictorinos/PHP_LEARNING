@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/uploadImage/UploadImage.Class.php" line="181" mnemonic="1" />
-    <bookmark url="file://$PROJECT_DIR$/uploadImage/UploadImage.Class.php" line="30" mnemonic="2" />
-    <bookmark url="file://$PROJECT_DIR$/uploadImage/UploadImage.Class.php" line="129" mnemonic="3" />
+    <bookmark url="file://$PROJECT_DIR$/uploadImage/UploadImage.Class.php" line="218" mnemonic="1" />
+    <bookmark url="file://$PROJECT_DIR$/uploadImage/UploadImage.Class.php" line="148" mnemonic="3" />
+    <bookmark url="file://$PROJECT_DIR$/uploadImage/UploadImage.Class.php" line="5" mnemonic="2" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89496de1-ffdb-4c74-b79c-f9bd413b934d" name="Default" comment="" />
@@ -27,13 +27,13 @@
     <favorites_list name="UsefulClasses" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.23239839">
+    <splitter split-orientation="horizontal" split-proportion="0.40533036">
       <split-first>
         <leaf>
           <file leaf-file-name="Helper.Class.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Helper.Class.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="20" column="10" selection-start="369" selection-end="369" vertical-scroll-proportion="-15.714286" vertical-offset="0" max-vertical-offset="682">
+                <state line="20" column="10" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0" vertical-offset="440" max-vertical-offset="682">
                   <folding />
                 </state>
               </provider>
@@ -42,21 +42,19 @@
           <file leaf-file-name="UploadImage.Class.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/uploadImage/UploadImage.Class.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="48" column="44" selection-start="1214" selection-end="1238" vertical-scroll-proportion="-12.571428" vertical-offset="704" max-vertical-offset="5808">
+                <state line="52" column="44" selection-start="1346" selection-end="1370" vertical-scroll-proportion="0.0" vertical-offset="792" max-vertical-offset="6710">
                   <folding>
-                    <marker date="1402009282127" expanded="true" signature="1245:1605" placeholder="..." />
+                    <marker date="1402093376469" expanded="true" signature="1378:1738" placeholder="..." />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="upload.php" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="upload.php" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/uploadImage/upload.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="15" column="35" selection-start="225" selection-end="225" vertical-scroll-proportion="0.38062283" vertical-offset="0" max-vertical-offset="867">
-                  <folding>
-                    <element signature="e#6#89#0" expanded="true" />
-                  </folding>
+                <state line="17" column="5" selection-start="270" selection-end="270" vertical-scroll-proportion="0.29497206" vertical-offset="0" max-vertical-offset="895">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -64,7 +62,7 @@
           <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/uploadImage/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="8" column="34" selection-start="166" selection-end="171" vertical-scroll-proportion="-6.285714" vertical-offset="0" max-vertical-offset="396">
+                <state line="8" column="34" selection-start="166" selection-end="171" vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="396">
                   <folding />
                 </state>
               </provider>
@@ -74,11 +72,13 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="UploadImage.Class.php" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="UploadImage.Class.php" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/uploadImage/UploadImage.Class.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="248" column="23" selection-start="6346" selection-end="6346" vertical-scroll-proportion="0.6040495" vertical-offset="4919" max-vertical-offset="5808">
-                  <folding />
+                <state line="267" column="26" selection-start="7054" selection-end="7054" vertical-scroll-proportion="4.5646257" vertical-offset="1848" max-vertical-offset="6710">
+                  <folding>
+                    <marker date="1402093376469" expanded="true" signature="1378:1738" placeholder="..." />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -99,17 +99,16 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/UploadImage.Class.php" />
         <option value="$PROJECT_DIR$/uploadImage/index.html" />
-        <option value="$PROJECT_DIR$/uploadImage/upload.php" />
+        <option value="$PROJECT_DIR$/fdd.php" />
         <option value="$PROJECT_DIR$/uploadImage/UploadImage.Class.php" />
+        <option value="$PROJECT_DIR$/uploadImage/upload.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-2" />
-    <option name="y" value="-3" />
-    <option name="width" value="1924" />
-    <option name="height" value="1052" />
+    <option name="width" value="1914" />
+    <option name="height" value="1045" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -137,6 +136,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -171,7 +171,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -180,8 +179,9 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaScrip-Jquery" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -214,15 +214,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="-3" width="1924" height="1052" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1914" height="1045" extended-state="4" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.09010417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.05706806" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -261,32 +261,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Helper.Class.php">
+    <entry file="file://$PROJECT_DIR$/uploadImage/UploadImage.Class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="10" selection-start="369" selection-end="369" vertical-scroll-proportion="-15.714286" vertical-offset="0" max-vertical-offset="682">
+        <state line="48" column="44" selection-start="1212" selection-end="1236" vertical-scroll-proportion="0.0" vertical-offset="704" max-vertical-offset="5786">
+          <folding>
+            <marker date="1402093376469" expanded="true" signature="1378:1738" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uploadImage/upload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="400" selection-end="400" vertical-scroll-proportion="0.0" vertical-offset="462" max-vertical-offset="484">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/uploadImage/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="34" selection-start="166" selection-end="171" vertical-scroll-proportion="-6.285714" vertical-offset="0" max-vertical-offset="396">
+        <state line="8" column="34" selection-start="166" selection-end="171" vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="396">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Helper.Class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="10" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0" vertical-offset="440" max-vertical-offset="682">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/uploadImage/upload.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="35" selection-start="225" selection-end="225" vertical-scroll-proportion="0.38062283" vertical-offset="0" max-vertical-offset="867">
-          <folding>
-            <element signature="e#6#89#0" expanded="true" />
-          </folding>
+        <state line="15" column="35" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="616">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uploadImage/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="34" selection-start="166" selection-end="171" vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="396">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/uploadImage/UploadImage.Class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="248" column="23" selection-start="6346" selection-end="6346" vertical-scroll-proportion="0.6040495" vertical-offset="4919" max-vertical-offset="5808">
+        <state line="48" column="44" selection-start="1214" selection-end="1238" vertical-scroll-proportion="0.0" vertical-offset="704" max-vertical-offset="5808">
+          <folding>
+            <marker date="1402093376469" expanded="true" signature="1378:1738" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Helper.Class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="10" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0" vertical-offset="440" max-vertical-offset="682">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Helper.Class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="10" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0" vertical-offset="440" max-vertical-offset="682">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uploadImage/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="34" selection-start="166" selection-end="171" vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="396">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uploadImage/UploadImage.Class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="44" selection-start="1346" selection-end="1370" vertical-scroll-proportion="0.0" vertical-offset="792" max-vertical-offset="6710">
+          <folding>
+            <marker date="1402093376469" expanded="true" signature="1378:1738" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uploadImage/upload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="5" selection-start="270" selection-end="270" vertical-scroll-proportion="0.29497206" vertical-offset="0" max-vertical-offset="895">
           <folding />
         </state>
       </provider>

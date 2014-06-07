@@ -23,51 +23,51 @@ echo 'а =', $a, ' b = ', $b; // как видим изменяя b мы изм�
  * @return array
  */
 
-    function getLinks($link)
-    {
+   // function getLinks($link)
+    //{
         /*** return array ***/
-        $ret = array();
+     //   $ret = array();
 
         /*** a new dom object ***/
-        $dom = new domDocument;
+      //  $dom = new domDocument;
 
         /*** get the HTML (suppress errors) ***/
-        @$dom->loadHTML(file_get_contents($link));
+      //  @$dom->loadHTML(file_get_contents($link));
 
         /*** remove silly white space ***/
-        $dom->preserveWhiteSpace = false;
+      //  $dom->preserveWhiteSpace = false;
 
         /*** get the links from the HTML ***/
-        $links = $dom->getElementsByTagName('a');
+        //$links = $dom->getElementsByTagName('a');
     
         /*** loop over the links ***/
-        foreach ($links as $tag)
-        {
-            $ret[$tag->getAttribute('href')] = $tag->childNodes->item(0)->nodeValue;
-        }
+      //  foreach ($links as $tag)
+      //  {
+      //      $ret[$tag->getAttribute('href')] = $tag->childNodes->item(0)->nodeValue;
+      //  }
 
-        return $ret;
-    }
+      //  return $ret;
+   // }*/
 
 
        /*** a link to search ***/
-    $link = "http://yad2.co.il";
+   // $link = "http://yad2.co.il";
 
     /*** get the links ***/
-    $urls = getLinks($link);
+   // $urls = getLinks($link);
 
     /*** check for results ***/
-    if(sizeof($urls) > 0)
-    {
-        foreach($urls as $key=>$value)
-        {
-            echo $key . ' - '. $value . '<br >';
-        }
-    }
-    else
-    {
-        echo "No links found at $link";
-    }
+   // if(sizeof($urls) > 0)
+   // {
+    //    foreach($urls as $key=>$value)
+    //    {
+     //       echo $key . ' - '. $value . '<br >';
+     //   }
+   // }
+   // else
+   // {
+      //  echo "No links found at $link";
+   // }
 
 
     

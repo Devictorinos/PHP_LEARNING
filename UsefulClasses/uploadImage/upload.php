@@ -10,13 +10,19 @@ include "UploadImage.Class.php";
 
 /*echo "<pre>";
 var_dump($_FILES);*/
-
+//phpinfo();
 
 $img = new UploadImage();
-$img->addImageExtention('jjj/ggg');
 $img->explodeImage($_FILES['image']);
+$img->uploadMainImage();
+$img->createThumbs(200, 200, 'Pic1/')
+    ->createThumbs(300, 400, 'Pic2/')
+    ->createThumbs(600, 600, 'Pic3/');
+$result = $img->fishish();
 
-$result = $img->uploadMainImage()->showErrors();
 echo "<pre>";
 var_dump($result);
+echo "</pre>";
+
+
 

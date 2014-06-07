@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="833d1057-f7b1-42a5-99a4-ba99d36b4e6c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PHP_LVL_4/SPL_ Standart_PHP_Library/ArrayIterator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PHP_LVL_4/SPL_ Standart_PHP_Library/Closure/clouser.Class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PHP_LVL_4/SPL_ Standart_PHP_Library/aggregate.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PHP_LVL_4/SPL_ Standart_PHP_Library/arrayAccess.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PHP_LVL_4/SPL_ Standart_PHP_Library/interatorPractic.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PHP_LVL_4/SPL_ Standart_PHP_Library/iteratorInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PHP_LVL_4/SPL_ Standart_PHP_Library/practicIterator2.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PHP_LVL_4/SPL_ Standart_PHP_Library/splClassesFunc.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UsefulClasses/uploadImage/images/643926_611942275493248_1748716220_n.jpg" afterPath="$PROJECT_DIR$/UsefulClasses/uploadImage/images/643926_611942275493248_1748716220_n.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UsefulClasses/uploadImage/thumbs/643926_611942275493248_1748716220_n.jpg" afterPath="$PROJECT_DIR$/UsefulClasses/uploadImage/thumbs/643926_611942275493248_1748716220_n.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/someTests.php" afterPath="$PROJECT_DIR$/someTests.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PHP_LVL_4/.idea/workspace.xml" afterPath="$PROJECT_DIR$/PHP_LVL_4/.idea/workspace.xml" />
     </list>
     <ignored path="php_lerning.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,66 +29,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="autoloader.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PHP_LVL_3/autoloader.php">
+      <file leaf-file-name="anonims.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/anonims.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="440">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1342">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Constants.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PHP_LVL_3/Constants.php">
+      <file leaf-file-name="callbacks.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/callbacks.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="924">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="traits2_change_access_modifier.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PHP_LVL_3/traits2_change_access_modifier.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1012">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArrayIterator.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PHP_LVL_4/SPL_Standart_PHP_Library/ArrayIterator.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="42" selection-start="639" selection-end="673" vertical-scroll-proportion="0.4680851" vertical-offset="264" max-vertical-offset="1210">
-              <folding>
-                <marker date="1399750848330" expanded="true" signature="599:628" placeholder="SELECT `id`,..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="traits.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PHP_LVL_3/traits.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2046">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="staticNew.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PHP_LVL_3/staticNew.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2134">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="yad2pay.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PHP_LVL_4/SPL_Standart_PHP_Library/yad2pay.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="5" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0" vertical-offset="484" max-vertical-offset="1254">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1320">
               <folding />
             </state>
           </provider>
@@ -112,12 +61,13 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/PHP_LVL_4/SPL_Standart_PHP_Library/yad2pay.php" />
+        <option value="$PROJECT_DIR$/someTests.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="width" value="1918" />
+    <option name="width" value="1912" />
     <option name="height" value="1045" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -164,52 +114,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="php_lerning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="php_lerning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP_LVL_4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SPL_Standart_PHP_Library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="php_lerning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="php_lerning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP_LVL_4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="php_lerning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="php_lerning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP_LVL_3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -235,10 +139,6 @@
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
-      <browser start="false" url="" with-js-debugger="false" />
-      <method />
-    </configuration>
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
@@ -254,15 +154,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1918" height="1045" extended-state="4" />
-    <editor active="false" />
+    <frame x="0" y="0" width="1912" height="1045" extended-state="4" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18696581" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1865828" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -270,11 +170,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -303,7 +203,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PHP_LVL_3/Constants.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="924">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="968">
           <folding />
         </state>
       </provider>
@@ -318,9 +218,7 @@
     <entry file="file://$PROJECT_DIR$/PHP_LVL_4/SPL_Standart_PHP_Library/ArrayIterator.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="42" selection-start="639" selection-end="673" vertical-scroll-proportion="0.0" vertical-offset="264" max-vertical-offset="1210">
-          <folding>
-            <marker date="1399750848330" expanded="true" signature="599:628" placeholder="SELECT `id`,..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -334,13 +232,6 @@
     <entry file="file://$PROJECT_DIR$/PHP_LVL_3/staticNew.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2134">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP_LVL_4/SPL_Standart_PHP_Library/yad2pay.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="5" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0" vertical-offset="484" max-vertical-offset="1254">
           <folding />
         </state>
       </provider>
@@ -369,9 +260,49 @@
     <entry file="file://$PROJECT_DIR$/PHP_LVL_4/SPL_Standart_PHP_Library/ArrayIterator.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="42" selection-start="639" selection-end="673" vertical-scroll-proportion="0.0" vertical-offset="264" max-vertical-offset="1210">
-          <folding>
-            <marker date="1399750848330" expanded="true" signature="599:628" placeholder="SELECT `id`,..." />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP_LVL_3/traits.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2046">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP_LVL_3/staticNew.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2134">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP_LVL_3/autoloader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="440">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP_LVL_3/Constants.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="924">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP_LVL_3/traits2_change_access_modifier.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1012">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP_LVL_4/SPL_Standart_PHP_Library/ArrayIterator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="42" selection-start="639" selection-end="673" vertical-scroll-proportion="0.0" vertical-offset="264" max-vertical-offset="1210">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -424,19 +355,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHP_LVL_4/SPL_Standart_PHP_Library/yad2pay.php">
+    <entry file="file://$PROJECT_DIR$/PHP_LVL_4/SPL_Standart_PHP_Library/ArrayIterator.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="5" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0" vertical-offset="484" max-vertical-offset="1254">
+        <state line="30" column="42" selection-start="639" selection-end="673" vertical-scroll-proportion="-14.142858" vertical-offset="264" max-vertical-offset="1210">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHP_LVL_4/SPL_Standart_PHP_Library/ArrayIterator.php">
+    <entry file="file://$PROJECT_DIR$/some_practicas/functionsTests.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="42" selection-start="639" selection-end="673" vertical-scroll-proportion="0.4680851" vertical-offset="264" max-vertical-offset="1210">
-          <folding>
-            <marker date="1399750848330" expanded="true" signature="599:628" placeholder="SELECT `id`,..." />
-          </folding>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/some_practicas/someTests.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="968">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anonims.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1342">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/someTests.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="6" selection-end="473" vertical-scroll-proportion="-0.78571427" vertical-offset="0" max-vertical-offset="1716">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/some_tests.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.29497206" vertical-offset="264" max-vertical-offset="3410">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpInfo&amp;Server.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1034">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/function_tricks.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1342">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DateTime.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookies.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/callbacks.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1320">
+          <folding />
         </state>
       </provider>
     </entry>
