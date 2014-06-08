@@ -14,10 +14,24 @@ var_dump($_FILES);*/
 
 $img = new UploadImage();
 $img->explodeImage($_FILES['image']);
+//$img->addAllowedExtention("text/plain");
+
+//$img->changeAllowedExtention(["text/plain"]);
+//$img->changeAllowedWidth(300);
+//$img->changeAllowedHeght(300);
+//$img->setAllowedSize(10);
+$img->changeTemporaryPath('/var/www/UsefulClasses/images/');
+$img->changePath('/var/www/UsefulClasses/images/');
 $img->uploadMainImage();
 $img->createThumbs(200, 200, 'Pic1/')
     ->createThumbs(300, 400, 'Pic2/')
-    ->createThumbs(600, 600, 'Pic3/');
+    ->createThumbs(600, 600, 'Pic3/', array($img, 'rotateImage'), [270, 0, null]);
+
+
+/*$img->createThumbs(200, 200, 'Pic1/', array($img, 'rotateImage'), [90, 0, null])
+    ->createThumbs(300, 400, 'Pic2/', array($img, 'rotateImage'), [180, 0, null])
+    ->createThumbs(600, 600, 'Pic3/', array($img, 'rotateImage'), [270, 0, null])
+    ->createThumbs(600, 600, 'Pic4/');*/
 $result = $img->fishish();
 
 echo "<pre>";
