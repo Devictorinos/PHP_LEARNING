@@ -17,8 +17,10 @@ class NDB
         $this->_dbh = DBConfig::C($connection);
        
     }
-
-    public static function con($connection)
+    public static function W(){
+    	return con('w');
+    }
+    protected static function con($connection)
     {
         
 
