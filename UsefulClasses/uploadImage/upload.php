@@ -21,11 +21,11 @@ $img->explodeImage($_FILES['image']);
 //$img->changeAllowedHeght(300);
 //$img->setAllowedSize(10);
 $img->changeTemporaryPath('/var/www/UsefulClasses/images/');
-$img->changePath('/var/www/UsefulClasses/images/');
+$img->changePath('/var/www/UsefulClasses/images/Pic1/');
 $img->uploadMainImage();
-$img->createThumbs(200, 200, 'Pic1/')
-    ->createThumbs(300, 400, 'Pic2/')
-    ->createThumbs(600, 600, 'Pic3/', array($img, 'rotateImage'), [270, 0, null]);
+$img->createThumbs(200, 200, 'pic/')->changePath('/var/www/UsefulClasses/images/Pic2/')
+    ->createThumbs(300, 400, 'pic/')->changePath('/var/www/UsefulClasses/images/Pic3/')
+    ->createThumbs(600, 600, 'pic/', array($img, 'rotateImage'), [270, 0, null]);
 
 
 /*$img->createThumbs(200, 200, 'Pic1/', array($img, 'rotateImage'), [90, 0, null])

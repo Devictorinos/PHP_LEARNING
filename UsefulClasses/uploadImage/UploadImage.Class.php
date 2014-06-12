@@ -443,7 +443,7 @@ class UploadImage {
     public function changePath($path)
     {
         $this->_path = $path;
-
+        echo $this->_path;
         return $this;
     }
 

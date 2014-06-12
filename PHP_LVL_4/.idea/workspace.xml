@@ -22,119 +22,104 @@
     <favorites_list name="PHP_LVL_4" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.45657143">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/PDO/index.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="39" column="0" selection-start="1063" selection-end="1063" vertical-scroll-proportion="0.59069765" vertical-offset="350" max-vertical-offset="1518">
-                  <folding>
-                    <marker date="1401989573927" expanded="true" signature="393:423" placeholder="SELECT `name..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="fabricPattern.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/DesignPatterns/fabricPattern.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1298">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="dependencyInjectionPattern.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/DesignPatterns/dependencyInjectionPattern.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1298">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="arrayAccess.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/SPL_Standart_PHP_Library/arrayAccess.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ArrayIterator.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/SPL_Standart_PHP_Library/ArrayIterator.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="36" column="9" selection-start="590" selection-end="829" vertical-scroll-proportion="0.0" vertical-offset="792" max-vertical-offset="1210">
-                  <folding>
-                    <marker date="1401395738432" expanded="true" signature="599:628" placeholder="SELECT `id`,..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Test33.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/SPL_Standart_PHP_Library/spl_autoload_register/test/inertest/Test33.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="4" column="10" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0" vertical-offset="88" max-vertical-offset="396">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Test2.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/SPL_Standart_PHP_Library/spl_autoload_register/test2/Test2.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="2" column="0" selection-start="7" selection-end="94" vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="308">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Test3.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/SPL_Standart_PHP_Library/spl_autoload_register/test3/Test3.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="2" column="16" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="374">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="autoload.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../../DBWork/autoload.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="autoloader.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/SPL_Standart_PHP_Library/spl_autoload_register/autoloader.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="39" column="0" selection-start="802" selection-end="802" vertical-scroll-proportion="0.0" vertical-offset="858" max-vertical-offset="1430">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="style.scss" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/../../liveYad2/sass/style.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="87" column="4" selection-start="2036" selection-end="2036" vertical-scroll-proportion="0.30688447" vertical-offset="1651" max-vertical-offset="44660">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PDO/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="0" selection-start="1063" selection-end="1063" vertical-scroll-proportion="-30.642857" vertical-offset="0" max-vertical-offset="1518">
+              <folding>
+                <marker date="1401989573927" expanded="true" signature="393:423" placeholder="SELECT `name..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reflectionFunction.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/reflection/reflectionFunction.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="45" selection-start="555" selection-end="555" vertical-scroll-proportion="-16.5" vertical-offset="176" max-vertical-offset="1078">
+              <folding>
+                <marker date="1402340131434" expanded="true" signature="262:294" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reflectionParameter.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/reflection/reflectionParameter.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="1" selection-start="664" selection-end="664" vertical-scroll-proportion="0.70731705" vertical-offset="0" max-vertical-offset="902">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fabricPattern.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DesignPatterns/fabricPattern.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1298">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dependencyInjectionPattern.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DesignPatterns/dependencyInjectionPattern.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1298">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="arrayAccess.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SPL_Standart_PHP_Library/arrayAccess.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayIterator.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SPL_Standart_PHP_Library/ArrayIterator.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="9" selection-start="590" selection-end="829" vertical-scroll-proportion="0.0" vertical-offset="792" max-vertical-offset="1210">
+              <folding>
+                <marker date="1401395738432" expanded="true" signature="599:628" placeholder="SELECT `id`,..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test33.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SPL_Standart_PHP_Library/spl_autoload_register/test/inertest/Test33.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="10" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0" vertical-offset="88" max-vertical-offset="396">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test2.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SPL_Standart_PHP_Library/spl_autoload_register/test2/Test2.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="0" selection-start="7" selection-end="94" vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="308">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test3.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SPL_Standart_PHP_Library/spl_autoload_register/test3/Test3.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="16" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="374">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -163,13 +148,17 @@
         <option value="$PROJECT_DIR$/SPL_Standart_PHP_Library/spl_autoload_register/test.php" />
         <option value="$PROJECT_DIR$/../../liveYad2/sass/style.scss" />
         <option value="$PROJECT_DIR$/PDO/index.php" />
+        <option value="$PROJECT_DIR$/reflection/reflectorFirstStep.php" />
+        <option value="$PROJECT_DIR$/reflection/reflectionParameter.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="php_5.5.12" />
   <component name="ProjectFrameBounds">
-    <option name="width" value="1918" />
-    <option name="height" value="1045" />
+    <option name="x" value="-2" />
+    <option name="y" value="-3" />
+    <option name="width" value="1924" />
+    <option name="height" value="1052" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -197,7 +186,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -215,10 +203,6 @@
               <option name="myItemId" value="PHP_LVL_4" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SPL_Standart_PHP_Library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -230,102 +214,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SPL_Standart_PHP_Library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SPLObjecStorage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP_LVL_4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP_LVL_4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SPL_Standart_PHP_Library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spl_autoload_register" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP_LVL_4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP_LVL_4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SPL_Standart_PHP_Library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spl_autoload_register" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP_LVL_4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP_LVL_4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SPL_Standart_PHP_Library" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spl_autoload_register" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP_LVL_4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP_LVL_4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PDO" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP_LVL_4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP_LVL_4" />
+              <option name="myItemId" value="reflection" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -333,10 +228,10 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../UsefulClasses" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="SearchEverywhereHistory" value="foo()" />
+    <property name="SearchEverywhereHistory" value="&#10;foo()" />
     <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
@@ -449,19 +344,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1918" height="1045" extended-state="0" />
-    <editor active="false" />
+    <frame x="-2" y="-3" width="1924" height="1052" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32976446" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.08568443" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13229166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947367" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -489,18 +384,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SPL_Standart_PHP_Library/spl_autoload_register/test3/Test3.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="4" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0" vertical-offset="132" max-vertical-offset="264">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SPL_Standart_PHP_Library/SplFixedArray.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SPL_Standart_PHP_Library/SplAutoloadRegister.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="0" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="216" />
@@ -693,27 +576,6 @@
         <state line="50" column="27" selection-start="1624" selection-end="1624" vertical-scroll-proportion="0.34920636" vertical-offset="792" max-vertical-offset="4356" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SPL_Standart_PHP_Library/spl_autoload_register/test3/Test3.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="16" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="374">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SPL_Standart_PHP_Library/spl_autoload_register/test2/Test2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="7" selection-end="94" vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="308">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SPL_Standart_PHP_Library/spl_autoload_register/test/inertest/Test33.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="10" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0" vertical-offset="88" max-vertical-offset="396">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SPL_Standart_PHP_Library/spl_autoload_register/test/Test.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="15" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="528" />
@@ -722,6 +584,21 @@
     <entry file="file://$PROJECT_DIR$/SPL_Standart_PHP_Library/spl_autoload_register/test.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="29" selection-start="631" selection-end="631" vertical-scroll-proportion="-9.964286" vertical-offset="447" max-vertical-offset="1870" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../DBWork/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="895" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SPL_Standart_PHP_Library/spl_autoload_register/autoloader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="0" selection-start="802" selection-end="802" vertical-scroll-proportion="0.0" vertical-offset="858" max-vertical-offset="1430" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../liveYad2/sass/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="4" selection-start="2036" selection-end="2036" vertical-scroll-proportion="0.30688447" vertical-offset="1651" max-vertical-offset="44660" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DesignPatterns/fabricPattern.php">
@@ -754,33 +631,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../DBWork/autoload.php">
+    <entry file="file://$PROJECT_DIR$/SPL_Standart_PHP_Library/spl_autoload_register/test/inertest/Test33.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="895">
+        <state line="4" column="10" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0" vertical-offset="88" max-vertical-offset="396">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SPL_Standart_PHP_Library/spl_autoload_register/autoloader.php">
+    <entry file="file://$PROJECT_DIR$/SPL_Standart_PHP_Library/spl_autoload_register/test2/Test2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="802" selection-end="802" vertical-scroll-proportion="0.0" vertical-offset="858" max-vertical-offset="1430">
+        <state line="2" column="0" selection-start="7" selection-end="94" vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="308">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../liveYad2/sass/style.scss">
+    <entry file="file://$PROJECT_DIR$/SPL_Standart_PHP_Library/spl_autoload_register/test3/Test3.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="4" selection-start="2036" selection-end="2036" vertical-scroll-proportion="0.30688447" vertical-offset="1651" max-vertical-offset="44660">
+        <state line="2" column="16" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="374">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PDO/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="1063" selection-end="1063" vertical-scroll-proportion="0.59069765" vertical-offset="350" max-vertical-offset="1518">
+        <state line="39" column="0" selection-start="1063" selection-end="1063" vertical-scroll-proportion="-30.642857" vertical-offset="0" max-vertical-offset="1518">
           <folding>
             <marker date="1401989573927" expanded="true" signature="393:423" placeholder="SELECT `name..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reflection/reflectionFunction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="45" selection-start="555" selection-end="555" vertical-scroll-proportion="-16.5" vertical-offset="176" max-vertical-offset="1078">
+          <folding>
+            <marker date="1402340131434" expanded="true" signature="262:294" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reflection/reflectionParameter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="1" selection-start="664" selection-end="664" vertical-scroll-proportion="0.70731705" vertical-offset="0" max-vertical-offset="902">
+          <folding />
         </state>
       </provider>
     </entry>

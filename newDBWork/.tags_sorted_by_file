@@ -1,0 +1,24 @@
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+DBConfig	DBConfig.Class.php	/^final class DBConfig$/;"	c
+__callStatic	DBConfig.Class.php	/^    public static function __callStatic($name, $args)$/;"	f
+_connectionType	DBConfig.Class.php	/^    private $_connectionType;$/;"	v
+_db	DBConfig.Class.php	/^    protected $_db;$/;"	v
+_dbName	DBConfig.Class.php	/^    private $_dbName;$/;"	v
+_host	DBConfig.Class.php	/^    private $_host;$/;"	v
+_password	DBConfig.Class.php	/^    private $_password;$/;"	v
+_user	DBConfig.Class.php	/^    private $_user;$/;"	v
+r	DBConfig.Class.php	/^    public static function r()$/;"	f
+s	DBConfig.Class.php	/^    public static function s()$/;"	f
+u	DBConfig.Class.php	/^    public static function u()$/;"	f
+w	DBConfig.Class.php	/^    public static function w()$/;"	f
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+NDB	NDB.Class.php	/^class NDB$/;"	c
+__construct	NDB.Class.php	/^    public function __construct($connection)$/;"	f
+_dbh	NDB.Class.php	/^        $this->_dbh = DBConfig::C($connection);$/;"	v
+_dbh	NDB.Class.php	/^    protected $_dbh;$/;"	v
+_singeltone	NDB.Class.php	/^    private static $_singeltone = null;$/;"	v
+con	NDB.Class.php	/^    public static function con($connection)$/;"	f
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
