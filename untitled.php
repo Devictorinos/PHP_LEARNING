@@ -1,6 +1,7 @@
 <?php
 
-
+echo "here";
+echo "here";
     $xml = '<students> 
             <student> 
             <student_number>12121212</student_number> 
