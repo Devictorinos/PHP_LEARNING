@@ -1,9 +1,5 @@
 <?php
 
-namespace newDBWork;
-
-use Exception;
-use PDO;
 
 final class DBConfig
 {
@@ -19,9 +15,10 @@ final class DBConfig
 
     public static function __callStatic($name, $args)
     {
+
         if (preg_match("/C/", $name, $matches)) {
        
-            
+           
 
             switch ($args[0]) {
                 case 'w':
@@ -47,28 +44,37 @@ final class DBConfig
 
     public static function r()
     {
+        //TODO CONNECTION TYPY
         return self::connect();
     }
 
     public static function w()
-    {
+    {   //TODO CONNECTION TYPE
         return self::connect();
     }
 
     public static function s()
     {
-         return self::connect();
+        //TODO CONNECTION TYPE
+        return self::connect();
     }
 
     public static function u()
     {
-        
+        //TODO CONNECTION TYPE
         return self::connect();
     }
 
     private static function connect($host = "localhost")
     {
-            return new PDO("mysql:host=localhost");
-        
+        try {
+
+            return new PDO("mysql:host=localhost", "root", "123");
+
+        } catch (PDOException $e) {
+            
+            echo $e->getMessage();
+        }
+     
     }
 }

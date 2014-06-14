@@ -4,9 +4,20 @@
     require_once "NDB.Class.php";
 
 echo "<pre>";
+/*try {
+
+    $result = newDBWork\NDB::S('u');
+     var_dump($result);
+} catch (PDOException $e) {
+    ECHO "HERE1";
+    echo $e->getMessage();
+
+}*/
+
+
 try {
 
-    $result = newDBWork\NDB::con('u');
+    $result = NDB::S();
      var_dump($result);
 } catch (PDOException $e) {
     ECHO "HERE1";
@@ -14,20 +25,9 @@ try {
 
 }
 
-
 try {
 
-    $result = newDBWork\NDB::con('s');
-     var_dump($result);
-} catch (PDOException $e) {
-    ECHO "HERE1";
-    echo $e->getMessage();
-
-}
-
-try {
-
-    $result = newDBWork\NDB::con('r');
+    $result = NDB::R();
     var_dump($result);
 } catch (PDOException $e) {
     ECHO "HERE1";
@@ -38,7 +38,7 @@ try {
 
 try {
 
-    $result = newDBWork\NDB::con('w');
+    $result = NDB::W();
      var_dump($result);
 } catch (PDOException $e) {
     ECHO "HERE1";
@@ -46,23 +46,26 @@ try {
 
 }
 
+
 try {
 
-    $result = newDBWork\NDB::con('w');
-    var_dump($result);
+    $result = NDB::S();
+     var_dump($result);
 } catch (PDOException $e) {
     ECHO "HERE1";
     echo $e->getMessage();
 
 }
 
+
 try {
 
-    $result = newDBWork\NDB::con('s');
-    var_dump($result);
+    $result = NDB::S()->select();
+     var_dump($result);
 } catch (PDOException $e) {
     ECHO "HERE1";
     echo $e->getMessage();
 
 }
+
 

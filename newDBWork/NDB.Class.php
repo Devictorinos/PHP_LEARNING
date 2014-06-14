@@ -1,6 +1,6 @@
 <?php
 
-namespace newDBWork;
+
 
 
 
@@ -17,9 +17,27 @@ class NDB
         $this->_dbh = DBConfig::C($connection);
        
     }
-    public static function W(){
-    	return con('w');
+
+    public static function W()
+    {
+    
+    	return self::con('w');
     }
+
+
+    public static function R()
+    {
+
+        return self::con('r');
+    }
+
+    public static function S()
+    {
+
+        return self::con('s');
+    }
+
+
     protected static function con($connection)
     {
         
@@ -28,7 +46,7 @@ class NDB
             case 'w':
 
                 if (self::$_singeltoneW === null) {
-                 
+                    
                     self::$_singeltoneW =  new self($connection);
                 }
 
@@ -72,5 +90,20 @@ class NDB
             
             
         
+    }
+
+    public function select()
+    {
+        return new Select();
+    }
+
+    public function update()
+    {
+        return new Update();
+    }
+
+    public function insert()
+    {
+        return new Insert();
     }
 }
