@@ -4,18 +4,7 @@ echo "here";
 echo "here";
 echo "here";
 echo "here";
-echo "here";
-echo "here";
-echo "here";
-echo "here";
-echo "here";
-echo "here";
-echo "here";
-echo "here";
-echo "here";
-echo "here";
-echo "here";
-echo "here";
+
 echo "here";
     $xml = '<students> 
             <student> 
