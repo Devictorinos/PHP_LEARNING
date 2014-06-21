@@ -76,7 +76,12 @@ if ($lastPage != 1) {
 
     $paginationControls .= '<select id="jumpToPage">';
     for ($i=1; $i <= $lastPage; $i++) {
-        $paginationControls .= '<option value="' . $i . '">' . $i . '</option>';
+
+            $selected = ($i == $pn) ? "selected" : "";
+               
+           
+
+        $paginationControls .= '<option ' . $selected . ' value="' . $i . '">' . $i . '</option>';
     }
 
     $paginationControls .= '</select>';
