@@ -45,6 +45,7 @@ for ($i=1; $i <= $lastPage; $i++) {
     } else {
         $background = ' green;';
     }
+
     
     $controls .= '<a id="page_' . $i . '" data-page="' . $i . '" class="num" style="background:' . $background . ' " href="' . $_SERVER['PHP_SELF'] . '?pn=' . $i . '"> ' . $i . '</a>';
 }
@@ -63,6 +64,7 @@ $query2 = $dbh->prepare("SELECT ContactName FROM Customers " . $limit . "");
 $query2->execute();
 
 $outputList = '';
+
 while($row = $query2->fetch(PDO::FETCH_OBJ)){ 
 
     $firstname = $row->ContactName;
