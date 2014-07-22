@@ -23,98 +23,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PDO/index.php">
+      <file leaf-file-name="basics.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/regularExpression/basics.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="0" selection-start="1063" selection-end="1063" vertical-scroll-proportion="-30.642857" vertical-offset="0" max-vertical-offset="1518">
+            <state line="16" column="22" selection-start="642" selection-end="642" vertical-scroll-proportion="0.4163861" vertical-offset="45" max-vertical-offset="936">
               <folding>
-                <marker date="1401989573927" expanded="true" signature="393:423" placeholder="SELECT `name..." />
+                <element signature="e#7#49#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="reflectionFunction.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/reflection/reflectionFunction.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="45" selection-start="555" selection-end="555" vertical-scroll-proportion="-16.5" vertical-offset="176" max-vertical-offset="1078">
-              <folding>
-                <marker date="1402340131434" expanded="true" signature="262:294" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="reflectionParameter.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/reflection/reflectionParameter.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="1" selection-start="664" selection-end="664" vertical-scroll-proportion="0.70731705" vertical-offset="0" max-vertical-offset="902">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fabricPattern.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DesignPatterns/fabricPattern.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1298">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dependencyInjectionPattern.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DesignPatterns/dependencyInjectionPattern.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1298">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="arrayAccess.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SPL_Standart_PHP_Library/arrayAccess.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArrayIterator.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SPL_Standart_PHP_Library/ArrayIterator.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="9" selection-start="590" selection-end="829" vertical-scroll-proportion="0.0" vertical-offset="792" max-vertical-offset="1210">
-              <folding>
-                <marker date="1401395738432" expanded="true" signature="599:628" placeholder="SELECT `id`,..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test33.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SPL_Standart_PHP_Library/spl_autoload_register/test/inertest/Test33.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="10" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0" vertical-offset="88" max-vertical-offset="396">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test2.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SPL_Standart_PHP_Library/spl_autoload_register/test2/Test2.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="7" selection-end="94" vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="308">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test3.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SPL_Standart_PHP_Library/spl_autoload_register/test3/Test3.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="16" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="374">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -150,6 +65,7 @@
         <option value="$PROJECT_DIR$/PDO/index.php" />
         <option value="$PROJECT_DIR$/reflection/reflectorFirstStep.php" />
         <option value="$PROJECT_DIR$/reflection/reflectionParameter.php" />
+        <option value="$PROJECT_DIR$/regularExpression/basics.php" />
       </list>
     </option>
   </component>
@@ -186,6 +102,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -214,17 +131,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="reflection" />
+              <option name="myItemId" value="regularExpression" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="options.lastSelected" value="editing.templates" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -345,14 +261,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="-3" width="1924" height="1052" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32976446" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13229166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16614583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -384,11 +300,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SPL_Standart_PHP_Library/SplAutoloadRegister.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="216" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SPL_Standart_PHP_Library/SPLObjecStorage/SplObjectHash.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="16" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="252" />
@@ -396,11 +307,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SPL_Standart_PHP_Library/ArrayIterator.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990">
-          <folding>
-            <marker date="1401395738432" expanded="true" signature="599:628" placeholder="SELECT `id`,..." />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SPL_Standart_PHP_Library/practicIterator2.php">
@@ -440,11 +347,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SPL_Standart_PHP_Library/ArrayIterator.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
-          <folding>
-            <marker date="1401395738432" expanded="true" signature="599:628" placeholder="SELECT `id`,..." />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SPL_Standart_PHP_Library/practicIterator2.php">
@@ -484,11 +387,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SPL_Standart_PHP_Library/ArrayIterator.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990">
-          <folding>
-            <marker date="1401395738432" expanded="true" signature="599:628" placeholder="SELECT `id`,..." />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SPL_Standart_PHP_Library/practicIterator2.php">
@@ -603,77 +502,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DesignPatterns/fabricPattern.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1298">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1298" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DesignPatterns/dependencyInjectionPattern.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1298">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1298" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SPL_Standart_PHP_Library/arrayAccess.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SPL_Standart_PHP_Library/ArrayIterator.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="9" selection-start="590" selection-end="829" vertical-scroll-proportion="0.0" vertical-offset="792" max-vertical-offset="1210">
-          <folding>
-            <marker date="1401395738432" expanded="true" signature="599:628" placeholder="SELECT `id`,..." />
-          </folding>
-        </state>
+        <state line="36" column="9" selection-start="590" selection-end="829" vertical-scroll-proportion="0.6225166" vertical-offset="84" max-vertical-offset="990" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SPL_Standart_PHP_Library/spl_autoload_register/test/inertest/Test33.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="10" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0" vertical-offset="88" max-vertical-offset="396">
-          <folding />
-        </state>
+        <state line="4" column="10" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0794702" vertical-offset="0" max-vertical-offset="906" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SPL_Standart_PHP_Library/spl_autoload_register/test2/Test2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="7" selection-end="94" vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="308">
-          <folding />
-        </state>
+        <state line="2" column="0" selection-start="7" selection-end="94" vertical-scroll-proportion="0.0397351" vertical-offset="0" max-vertical-offset="906" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SPL_Standart_PHP_Library/spl_autoload_register/test3/Test3.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="16" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="374">
-          <folding />
-        </state>
+        <state line="2" column="16" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0397351" vertical-offset="0" max-vertical-offset="906" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PDO/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="1063" selection-end="1063" vertical-scroll-proportion="-30.642857" vertical-offset="0" max-vertical-offset="1518">
-          <folding>
-            <marker date="1401989573927" expanded="true" signature="393:423" placeholder="SELECT `name..." />
-          </folding>
-        </state>
+        <state line="39" column="0" selection-start="1063" selection-end="1063" vertical-scroll-proportion="0.0" vertical-offset="702" max-vertical-offset="1242" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/reflection/reflectionFunction.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="45" selection-start="555" selection-end="555" vertical-scroll-proportion="-16.5" vertical-offset="176" max-vertical-offset="1078">
-          <folding>
-            <marker date="1402340131434" expanded="true" signature="262:294" placeholder="..." />
-          </folding>
-        </state>
+        <state line="29" column="45" selection-start="555" selection-end="555" vertical-scroll-proportion="0.0" vertical-offset="522" max-vertical-offset="882" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/reflection/reflectionParameter.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="1" selection-start="664" selection-end="664" vertical-scroll-proportion="0.70731705" vertical-offset="0" max-vertical-offset="902">
-          <folding />
+        <state line="29" column="1" selection-start="318" selection-end="318" vertical-scroll-proportion="0.70419425" vertical-offset="0" max-vertical-offset="1078" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regularExpression/basics.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="22" selection-start="642" selection-end="642" vertical-scroll-proportion="0.4163861" vertical-offset="45" max-vertical-offset="936">
+          <folding>
+            <element signature="e#7#49#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -6,3 +6,25 @@
 // * mean any symbols (no matter their number) include spaces
 // ?: mean must not get  - "john smith" - /([a-z ]+)(?:ith)/
 // ?P<name> mean - we can give a name to matches
+// i case insensitive
+// m multiple line search
+// S same is . and \n
+// x excluding white spaces
+
+$str = "April 15, 2003";
+$pattern = '/(\w+) (\d+), (\d+)/i';
+
+$replacement = "\${1}1, \$3";
+echo  preg_replace($pattern, $replacement, $str);
+echo "<br>";
+//echo  preg_replace('/(\w+) (\w+) (\w+)/e', strtoupper('$2'), $str1);//depricated - /e
+
+echo "<hr>";
+$keywords = preg_split('/[\s,]/', $str);
+
+var_dump($keywords);
+echo "<hr>";
+$str1 = "string";
+$keywords1 = preg_split('//', $str1, -1, PREG_SPLIT_NO_EMPTY);
+
+var_dump($keywords1);
