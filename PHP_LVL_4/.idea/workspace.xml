@@ -23,13 +23,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="basics.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="basics.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/regularExpression/basics.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="22" selection-start="642" selection-end="642" vertical-scroll-proportion="0.4163861" vertical-offset="45" max-vertical-offset="936">
-              <folding>
-                <element signature="e#7#49#0" expanded="true" />
-              </folding>
+            <state line="15" column="0" selection-start="619" selection-end="619" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="792">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="phpUnit.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PHPUNIT/phpUnit.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0" vertical-offset="66" max-vertical-offset="506">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PHPUNIT/test.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.024390243" vertical-offset="0" max-vertical-offset="902">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -66,6 +82,10 @@
         <option value="$PROJECT_DIR$/reflection/reflectorFirstStep.php" />
         <option value="$PROJECT_DIR$/reflection/reflectionParameter.php" />
         <option value="$PROJECT_DIR$/regularExpression/basics.php" />
+        <option value="$PROJECT_DIR$/phpUnit.php" />
+        <option value="$PROJECT_DIR$/PHPUNIT/composer.json" />
+        <option value="$PROJECT_DIR$/PHPUNIT/phpUnit.php" />
+        <option value="$PROJECT_DIR$/PHPUNIT/test.php" />
       </list>
     </option>
   </component>
@@ -102,7 +122,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -111,40 +130,17 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP_LVL_4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP_LVL_4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP_LVL_4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP_LVL_4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="regularExpression" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="options.lastSelected" value="editor.preferences.import" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="SearchEverywhereHistory" value="&#10;foo()" />
@@ -152,6 +148,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/PHPUNIT" />
       <recent name="$PROJECT_DIR$/SPL_Standart_PHP_Library/spl_autoload_register/test/inertest" />
       <recent name="$PROJECT_DIR$/SPL_Standart_PHP_Library/spl_autoload_register/test" />
       <recent name="$PROJECT_DIR$/SPL_Standart_PHP_Library/spl_autoload_register" />
@@ -268,7 +265,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32976446" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16614583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10885417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -277,7 +274,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -300,39 +297,25 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SPL_Standart_PHP_Library/SPLObjecStorage/SplObjectHash.php">
+    <entry file="file://$PROJECT_DIR$/regularExpression/basics.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="16" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="252" />
+        <state line="15" column="0" selection-start="619" selection-end="619" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="792">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SPL_Standart_PHP_Library/ArrayIterator.php">
+    <entry file="file://$PROJECT_DIR$/PHPUNIT/phpUnit.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990" />
+        <state line="3" column="0" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0" vertical-offset="66" max-vertical-offset="506">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SPL_Standart_PHP_Library/practicIterator2.php">
+    <entry file="file://$PROJECT_DIR$/PHPUNIT/test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1584" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SPL_Standart_PHP_Library/curl/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="21" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="558" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SPL_Standart_PHP_Library/curl/curl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="414" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SPL_Standart_PHP_Library/curl/get.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="35" selection-start="379" selection-end="397" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="630" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SPL_Standart_PHP_Library/SplFixedArray.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="300" />
+        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0" vertical-offset="22" max-vertical-offset="616">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SPL_Standart_PHP_Library/SplAutoloadRegister.php">
@@ -552,10 +535,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/regularExpression/basics.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="22" selection-start="642" selection-end="642" vertical-scroll-proportion="0.4163861" vertical-offset="45" max-vertical-offset="936">
-          <folding>
-            <element signature="e#7#49#0" expanded="true" />
-          </folding>
+        <state line="15" column="0" selection-start="619" selection-end="619" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="792">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHPUNIT/phpUnit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0" vertical-offset="66" max-vertical-offset="506">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHPUNIT/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.024390243" vertical-offset="0" max-vertical-offset="902">
+          <folding />
         </state>
       </provider>
     </entry>
