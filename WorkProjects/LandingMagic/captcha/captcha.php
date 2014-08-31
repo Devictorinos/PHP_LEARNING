@@ -4,8 +4,29 @@ namespace captcha;
 
 !(isset($_SESSION)) ? session_start() : '';
 
+
+header("Cache-Control: no-store, no-cache, must-revalidate");
+
+$captchaText = '';
+$captchaArray = array( "1","2","3","4","5","6","7","8","9","0",
+                      "a","b","c","d","e","f","g","h","i","j",
+                      "k","l","m","n","o","p","q","r","s","t",
+                      "u","v","w","x","y","z","A","B","S","D",
+                      "E","F","J","H","I","J","K","L","M","N",
+                      "O","P","Q","R","S","T","U","V","W","X",
+                      "Y","Z"
+                    );
+
+shuffle($captchaArray);
+
+foreach (array_rand($captchaArray, 2) as $key) {
+
+               $captchaText .= $captchaArray[$key];
+}
+
+
 putenv('GDFONTPATH=' . realpath('.'));
-$captchaText = $_SESSION['captcha'];
+
 
 
 class Captcha
@@ -46,20 +67,23 @@ class Captcha
             }
 
         }
-
+ 
         //Drawing captcha
-        imagettftext($this->captcha, 18, 0, 48, 30, $this->textColor, 'Hobby-of-night.ttf', $this->captchaText);
+        imagettftext($this->captcha, 18, 0, 48, 30, $this->textColor, 'arial.ttf', $this->captchaText);
+
         return $this->captcha;
 
     }
 }
 
 
-
-    
+    $_SESSION['captcha'] = $captchaText;
     $captcha = new Captcha($captchaText);
     
     $capt = $captcha->createCaptha();
     header('Content-Type: image/jpeg');
     imagejpeg($capt);
     imagedestroy($capt);
+
+    
+    die();

@@ -1,9 +1,9 @@
 <?php
-
+//var_dump($_SERVER['DOCUMENT_ROOT'] . "WorkProjects/LandingMagic/captcha/");
 session_start();
 
 /* Generating Captcha symbols */
-function generateCaptcha()
+/*function generateCaptcha()
 {
       $captchaText = '';
       $captchaArray = array( "1","2","3","4","5","6","7","8","9","0",
@@ -23,10 +23,10 @@ function generateCaptcha()
     }
           
     return $captchaText;
-};
+};*/
 
-$_SESSION['captcha'] = generateCaptcha();
-
+//$_SESSION['captcha'] = generateCaptcha();
+//var_dump($_SESSION['captcha']);
 ?>
 <!doctype html>
 <html lang="en">
@@ -38,14 +38,35 @@ $_SESSION['captcha'] = generateCaptcha();
   <script type="text/javascript" >
 
       $(document).ready(function(){
+ //$('.captcha').attr('src', "captcha/captcha.php");
+           
+           $('.refresh').on('click', function() {
+            $('.captcha').attr('src', "captcha/captcha.php");
+           })
 
-          $('.refresh-captcha').on('click', function(){
 
-              $('.captcha img').attr('src', 'captcha/captcha.php');
-                 
+          $('form#logininForm').submit( function(event) {
+              event.preventDefault();
+              // $('.captcha').attr('src', 'captcha/captcha.php');
+               var data = $('input[name=captcha]').val();
+               
+              
+             
+               $.ajax({
+
+                  url: "capt.php",
+                  type: "POST",
+                  dataType: "json",
+                  data: {data: data},
+                  success: function(response) {
+
+                  }
+
+               })
           });
-
       });
+
+
 
   </script>
 </head>
@@ -70,7 +91,7 @@ $_SESSION['captcha'] = generateCaptcha();
     <div class="content">
       <div class="inner-content">
 
-        <form class="login-form" action="#" method="POST" name="logininForm" >
+        <form class="login-form" action="#" method="POST" name="logininForm" id="logininForm" >
 <!-- ********************************************** -->         
           <div class="form-parts">
 
@@ -98,6 +119,20 @@ $_SESSION['captcha'] = generateCaptcha();
 
             <div class="clearfix"> </div>
           </div>
+
+          <div class="form-parts">
+
+            <div class="form-label">
+              <label for="Password">captcha</label>
+            </div>
+            <button type="button" class="refresh">click</button>
+            <div class="form-input">
+              <input class="form-field" type="text" name="captcha" value=""/> <img class="captcha" src="captcha/captcha.php" alt="">
+            </div>
+
+            <div class="clearfix"> </div>
+          </div>
+
  <!-- ********************************************** -->          
           <div class="form-parts">
             <div class="form-submit">
@@ -197,7 +232,7 @@ $_SESSION['captcha'] = generateCaptcha();
 <!-- ********************************************** -->  
           <div class="register-captcha">
             <div class="captcha">
-              <img src="captcha/captcha.php" alt="">
+              <img src="" alt="">
             </div>
             <div class="refresh-captcha">
                   REF
@@ -233,6 +268,8 @@ $_SESSION['captcha'] = generateCaptcha();
 
   </div>
 
+
+<? echo "captcha is - " . $_SESSION['captcha']?>
 </body>
 <script type="text/javascript" src="bower_components/jquery/jquery.min.js"></script>
 <script type="text/javascript">
