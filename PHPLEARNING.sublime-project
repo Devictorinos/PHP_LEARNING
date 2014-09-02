@@ -1,0 +1,24 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "/var/www/PHP_LERNING/"
+		},
+
+	],
+    "setting":
+    {
+        "tab_size": 4,
+        "xdebug": {
+            "path_mapping": {
+                "/var/www/PHP_LERNING/someTests.php" : "/var/www/PHP_LERNING/someTests.php"
+             
+            },
+            "url": "http://localhost/PHP_LERNING/someTests.php",
+            "super_globals": true,
+            "close_on_stop": true
+
+        }
+    }
+}
