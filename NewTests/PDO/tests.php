@@ -65,8 +65,8 @@ $sql = "SELECT ProductID, ProductName, CategoryID FROM Products";
 $query = $dbh->prepare($sql);
 $query->execute();
 
-$result = $query->fetchAll(PDO::FETCH_CLASS, 'Product');
-
+$result = $query->fetchAll(PDO::FETCH_CLASS | PDO::FETCH_PROPS_LATE, 'Product');
+                           
 $product  = new Product();
 foreach ($result as $obj) {
     $name = $obj->getProductName();

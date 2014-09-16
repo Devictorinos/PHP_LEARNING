@@ -43,7 +43,7 @@ $obj = new victor();
 //================================================
 
 //================================================
-//$row = $query->fetch(PDO::FETCH_CLASS|PDO::FETCH_PROP_LATE, 'victor');//inserting values after construct
+//$row = $query->fetch(PDO::FETCH_CLASS|PDO::FETCH_PROPS_LATE, 'victor');//inserting values after construct
 //================================================
 
 

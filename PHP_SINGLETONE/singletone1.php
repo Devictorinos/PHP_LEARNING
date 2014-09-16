@@ -14,7 +14,7 @@ abstract class Example
 
     }
 
-    public  function in()
+    public static function in()
     {
         $class = get_called_class();
         if ($class::$counter === null) {
@@ -60,6 +60,12 @@ class Example2 extends Example
 $var = Example1::in();
 
 $var->doSome('var1');
+
+
+$var3 = Example1::in();
+
+$var3->doSome('var3');
+
 
 $var1 = Example2::in();
 
