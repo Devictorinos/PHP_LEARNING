@@ -46,7 +46,7 @@ $employees = new Employee();
 $sql = "SELECT EmployeeID, LastName, FirstName, BirthDate, Address, City, Region FROM `Employees` 
         WHERE  EmployeeID IN (".$a.",".$b.",6,7)";
 
-NDB::R()->select($sql);
+/*NDB::R()->select($sql);
 
 while ($row = NDB::R()->FetchIntoClass(new Employee())) {
     echo "<pre>";
@@ -54,13 +54,13 @@ while ($row = NDB::R()->FetchIntoClass(new Employee())) {
     echo "</pre>";
 
 }
-
+*/
 
 NDB::R()->select($sql);
 
 
 while ($row  = NDB::R()->Fetch()) {
-    var_dump($row);
+    var_dump(NDB::heb2txt($row['FirstName']));
 }
 
 $result = NDB::R()->FetchClassAll('Employee');
@@ -70,6 +70,11 @@ foreach ($result as $key => $value) {
 }
 
 
+$arr['EmployeeID'] = 1;
+$arr['LastName']   = "vvvv";
+$arr['FirstName']  = "lll";
 
+NDB::R()->Update('Employee', $arr);
 
-
+NDB::R()->where1("id", 3);
+NDB::R()->where2("date", 5);

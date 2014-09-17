@@ -4,7 +4,7 @@ class Debug
 {
     public static function log($sql, $params)
     {
-        $highlights    = array("SELECT ", "FROM ",  " JOIN ", " INNER JOIN ", " LEFT JOIN ", " RIGHT JOIN ", "USING", "UNION", "ALL", " ON ");
+        $highlights    = array("SELECT ", "FROM ",  " JOIN ", " INNER JOIN ", " LEFT JOIN ", " RIGHT JOIN ", "USING", "UNION", "ALL", " ON ", "UPDATE", " SET ");
         $highlights2   = array(" WHERE ", " AND ", " OR ", " BETWEEN ", " IN ", "ISNULL");
         $highlights3   = array("NOT");
 

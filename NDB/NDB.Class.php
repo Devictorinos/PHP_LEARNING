@@ -20,6 +20,7 @@ class NDB
     /* SQL config */
     private $_sql;
     private $_fields;
+    private $_params;
     private $_type;
     private $_query;
     private $_debug;
@@ -99,6 +100,18 @@ class NDB
 
     }
 
+    public function __call($method, $params)
+    {
+
+        if (preg_match('/^where(\d$)/', $method, $matches)) {
+
+            $group = (int)$matches[1];
+            $this->Where($group, $params);
+
+        }
+
+    }
+
     public function select($sql, $debug = false)
     {
 
@@ -107,7 +120,7 @@ class NDB
 
         preg_match_all('/[0-9]{1,}|\'.+?\'|true|false/i', $this->_sql, $matches);
 
-        $this->_fields = $matches[0];
+        $this->_params = $matches[0];
 
         $this->_sql    = preg_replace_callback('/[0-9]{1,}|\'.+?\'|true|false/i', function () {
             
@@ -117,7 +130,7 @@ class NDB
 
         if ($this->_debug === true) {
 
-            Debug::log($this->_sql, $this->_fields);
+            Debug::log($this->_sql, $this->_params);
 
         } else {
 
@@ -126,7 +139,7 @@ class NDB
                 $this->_query = $this->_dbh->prepare($this->_sql);
                 
 
-                foreach ($this->_fields as $key => &$field) {
+                foreach ($this->_params as $key => &$field) {
                  
                     $this->_type = is_null($field)    ? PDO::PARAM_NULL : PDO::PARAM_STR;
                     $this->_type = is_bool($field)    ? PDO::PARAM_BOOL : PDO::PARAM_STR;
@@ -163,7 +176,9 @@ class NDB
         if ($this->_debug === false) {
     
             $this->_query->setFetchMode(PDO::FETCH_ASSOC);
-            return  $this->_query->fetch();
+            return $this->_query->fetch();
+            
+              
 
         }
     }
@@ -273,16 +288,28 @@ class NDB
     /*****************************************************/
     /* *************** UPDATE METHOD ***************** */
 
-    public function Update()
+    public function Update($table, array $sql)
     {
 
+        $this->_fields    = array_keys($sql);
+        $this->_params = array_values($sql);
+
+        $this->_fields = array_map(function (&$key) {
+            return '`' . $key . '`' . ' = ?';
+        }, $this->_fields);
+
+       // echo "<pre>" . print_r($this->_sql, true) . "</pre>";
+       // echo "<pre>" . print_r($this->_fields, true) . "</pre>";
+
+        $this->_sql = "UPDATE " . $table . " SET " . implode(", ", $this->_fields);
+       // Debug::log($this->_sql, $this->_fields);
         
     }
 
 
     /*****************************************************/
     /* *************** INSERT METHOD ***************** */
-    public function Insert()
+    public function Insert($table, array $sql)
     {
         
     }
@@ -300,5 +327,20 @@ class NDB
     public function Delete()
     {
         
+    }
+
+
+    public function Where($group, $params)
+    {
+        echo "<pre>" . print_r(func_get_args(), true) . "</pre>";
+    }
+
+
+    public static function heb2txt($str)
+    {
+        $match   = array(chr(171), chr(187), chr(182), chr(92), chr(47));
+        $replace = array(chr(34), chr(34), chr(39), '', '');
+
+           return str_replace($match, $replace, $str);
     }
 }
