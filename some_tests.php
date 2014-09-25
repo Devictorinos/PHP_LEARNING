@@ -1,5 +1,9 @@
 <?php
 
+$text   = "These are a few words :) ...  ";
+echo $text;
+echo "<br>";
+echo trim($text);
 // class Builder
 // {
 //     private $query;
