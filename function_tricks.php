@@ -35,7 +35,7 @@ echo "<br />";
 
     function foo2(j) {
         
-        alert(j++)
+        console.log(j++)
     }
 
     foo(i)
