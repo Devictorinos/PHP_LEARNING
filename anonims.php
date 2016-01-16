@@ -15,13 +15,7 @@ echo "<br>";
 
 call_user_func("viktor");
 
-
-
-
 echo "<br>";
-
-
-
 
 //declarating function that return variable.
 function name (callble $var)
